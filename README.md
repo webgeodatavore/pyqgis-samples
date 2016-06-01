@@ -8,8 +8,8 @@ At the moment, we are documenting mainly the core and core modules from QGIS.
 
 You can see progress at:
 
-[core](core.md)
-[gui](gui.md)
+* [core](core.md)
+* [gui](gui.md)
 
 
 
