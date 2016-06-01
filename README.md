@@ -1,10 +1,10 @@
 # PyQGIS samples
 
-The QGIS API based on C++ comments can frightened new Python QGIS users when they need to go further.
+The QGIS API based on C++ comments can scare new Python QGIS users when they need to go further.
 
-This repository is an attempt to start to cover all the Python API. It'a work in progress.
+This repository is an attempt to start to cover all the Python QGIS API. It'a work in progress.
 
-At the moment, we are documenting mainly the core and core modules from QGIS.
+At the moment, we are documenting mainly the gui and core modules from QGIS.
 
 You can see progress at:
 
