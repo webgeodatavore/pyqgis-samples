@@ -1,7 +1,7 @@
 * [ ] CharacterWidget
 * [ ] QgisInterface
 * [ ] Qgs25DRendererWidget
-* 2 [ ] QgsActionMenu
+* [ ] QgsActionMenu (2)
 * [ ] QgsAdvancedDigitizingCanvasItem
 * [x] QgsAdvancedDigitizingDockWidget
 * [ ] QgsAnnotationItem
@@ -152,15 +152,15 @@
 * [ ] QgsLinePatternFillSymbolLayerWidget
 * [ ] QgsLongLongValidator
 * [ ] QgsManageConnectionsDialog
-* 1 [ ] QgsMapCanvas ## Duplicate map i na new dialog or widget
-* 1 [ ] QgsMapCanvasItem ## Create a new class to show in heritance + try out the existing child class
+* [ ] QgsMapCanvas ## Duplicate map in a new dialog or widget (1)
+* [ ] QgsMapCanvasItem ## Create a new class to show in heritance + try out the existing child class (1)
 * [ ] QgsMapCanvasLayer
 * [ ] QgsMapCanvasMap
 * [ ] QgsMapCanvasSnapper
-* 1 [ ] QgsMapCanvasSnappingUtils
+* [ ] QgsMapCanvasSnappingUtils (1)
 * [ ] QgsMapCanvasTracer
-* 2 [ ] QgsMapLayerAction
-* 2 [ ] QgsMapLayerActionRegistry
+* [ ] QgsMapLayerAction (2)
+* [ ] QgsMapLayerActionRegistry (2)
 * [x] QgsMapLayerComboBox
 * [ ] QgsMapLayerModel
 * [ ] QgsMapLayerProxyModel
@@ -269,4 +269,3 @@
 * [ ] QgsVectorRandomColorRampV2Dialog
 * [x] QgsVertexMarker
 * [ ] QgsWidgetWrapper
-* 

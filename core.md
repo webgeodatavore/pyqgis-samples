@@ -7,13 +7,13 @@
 * [ ] QgsAbstractFeatureSource
 * [ ] QgsAbstractGeometrySimplifier
 * [ ] QgsAbstractGeometryV2
-* 2 [ ] QgsAction
+* [ ] QgsAction (2)
 * [ ] QgsAddRemoveItemCommand
 * [ ] QgsAddRemoveMultiFrameCommand
 * [ ] QgsAnimatedIcon
-* 1 [ ] QgsApplication
-* 2 [ ] QgsAtlasComposition
-* 2 [ ] QgsAttributeAction
+* [ ] QgsApplication (1)
+* [ ] QgsAtlasComposition (2)
+* [ ] QgsAttributeAction (2)
 * [ ] QgsAttributeEditorContainer
 * [ ] QgsAttributeEditorElement
 * [ ] QgsAttributeEditorField
@@ -36,11 +36,11 @@
 * [ ] QgsCircularStringV2
 * [ ] QgsClipToMinMaxEnhancement
 * [ ] QgsClipper
-* 2 [ ] QgsColorBrewerPalette
+* [ ] QgsColorBrewerPalette (2)
 * [ ] QgsColorEffect
 * [ ] QgsColorRampShader
 * [ ] QgsColorScheme
-* 3 [ ] QgsColorSchemeRegistry
+* [ ] QgsColorSchemeRegistry (3)
 * [ ] QgsComposerArrow
 * [ ] QgsComposerAttributeTable
 * [ ] QgsComposerAttributeTableColumnModel
@@ -52,15 +52,15 @@
 * [ ] QgsComposerFrame
 * [ ] QgsComposerGroupItem
 * [ ] QgsComposerHtml
-* 2 [ ] QgsComposerItem
+* [ ] QgsComposerItem (2)
 * [ ] QgsComposerItemCommand
 * [ ] QgsComposerItemGroup
-* 2 [ ] QgsComposerLabel
+* [ ] QgsComposerLabel (2)
 * [ ] QgsComposerLayerItem
-* 2 [ ] QgsComposerLegend
+* [ ] QgsComposerLegend (2)
 * [ ] QgsComposerLegendItem
 * [ ] QgsComposerLegendStyle
-* 2 [ ] QgsComposerMap
+* [ ] QgsComposerMap (2)
 * [ ] QgsComposerMapGrid
 * [ ] QgsComposerMapGridStack
 * [ ] QgsComposerMapItem
@@ -87,7 +87,7 @@
 * [ ] QgsComposerTextTable
 * [ ] QgsComposerTextTableV2
 * [ ] QgsComposerUtils
-* 2 [ ] QgsComposition
+* [ ] QgsComposition (2)
 * [ ] QgsCompoundCurveV2
 * [ ] QgsConditionalLayerStyles
 * [ ] QgsConditionalStyle
@@ -95,8 +95,8 @@
 * [ ] QgsContextHelp
 * [ ] QgsContrastEnhancement
 * [ ] QgsContrastEnhancementFunction
-* 1 [ ] QgsCoordinateReferenceSystem
-* 1 [ ] QgsCoordinateTransform
+* [ ] QgsCoordinateReferenceSystem (1)
+* [ ] QgsCoordinateTransform (1)
 * [ ] QgsCoordinateTransformCache
 * [ ] QgsCptCityAllRampsItem
 * [ ] QgsCptCityArchive
@@ -117,25 +117,25 @@
 * [ ] QgsCustomColorScheme
 * [ ] QgsDartMeasurement
 * [ ] QgsDataCollectionItem
-* 2 [ ] QgsDataDefined
-* 2 [ ] QgsDataItem
+* [ ] QgsDataDefined (2)
+* [ ] QgsDataItem (2)
 * [ ] QgsDataItemProvider
 * [ ] QgsDataItemProviderRegistry
-* 2 [ ] QgsDataProvider
-* 1 [ ] QgsDataSourceURI
+* [ ] QgsDataProvider (2)
+* [ ] QgsDataSourceURI (1)
 * [ ] QgsDatumTransformStore
 * [ ] QgsDbFilterProxyModel
 * [ ] QgsDefaultPluginLayerLegend
 * [ ] QgsDefaultRasterLayerLegend
 * [ ] QgsDefaultVectorLayerLegend
-* 2 [ ] QgsDiagram
+* [ ] QgsDiagram (2)
 * [ ] QgsDiagramInterpolationSettings
 * [ ] QgsDiagramLayerSettings
-* 2 [ ] QgsDiagramRendererV2
-* 2 [ ] QgsDiagramSettings
+* [ ] QgsDiagramRendererV2 (2)
+* [ ] QgsDiagramSettings (2)
 * [ ] QgsDirectoryItem
 * [ ] QgsDirectoryParamWidget
-* 2 [ ] QgsDistanceArea
+* [ ] QgsDistanceArea (2)
 * [ ] QgsDoubleBoxScaleBarStyle
 * [ ] QgsDrawSourceEffect
 * [ ] QgsDropShadowEffect
@@ -148,29 +148,29 @@
 * [ ] QgsErrorItem
 * [ ] QgsErrorMessage
 * [ ] QgsException
-* 1 [ ] QgsExpression
-* 2 [ ] QgsExpressionContext
+* [ ] QgsExpression (1)
+* [ ] QgsExpressionContext (2)
 * [ ] QgsExpressionContextScope
 * [ ] QgsExpressionContextUtils
 * [ ] QgsExpressionFieldBuffer
 * [ ] QgsFavouritesItem
-* 1 [ ] QgsFeature
+* [ ] QgsFeature (1)
 * [ ] QgsFeatureFilterProvider
-* 1 [ ] QgsFeatureIterator
-* 1 [ ] QgsFeatureRendererV2
-* 1 [ ] QgsFeatureRequest
+* [ ] QgsFeatureIterator (1)
+* [ ] QgsFeatureRendererV2 (1)
+* [ ] QgsFeatureRequest (1)
 * [ ] QgsFeatureStore
-* 1 [ ] QgsField
-* 1 [ ] QgsFields
+* [ ] QgsField (1)
+* [ ] QgsFields (1)
 * [ ] QgsFillSymbolLayerV2
-* 2 [ ] QgsFillSymbolV2
+* [ ] QgsFillSymbolV2 (2)
 * [ ] QgsFontMarkerSymbolLayerV2
 * [ ] QgsFontUtils
 * [ ] QgsGPSConnection
 * [ ] QgsGPSConnectionRegistry
 * [ ] QgsGPSDetector
 * [ ] QgsGPSInformation
-* 1 [ ] QgsGeometry
+* [ ] QgsGeometry (1)
 * [ ] QgsGeometryCache
 * [ ] QgsGeometryCollectionV2
 * [ ] QgsGeometryEngine
@@ -207,50 +207,50 @@
 * [ ] QgsLabelingResults
 * [ ] QgsLayerCoordinateTransform
 * [ ] QgsLayerDefinition
-* 2 [ ] QgsLayerItem
-* 2 [ ] QgsLayerTree
-* 2 [ ] QgsLayerTreeGroup
-* 2 [ ] QgsLayerTreeLayer
-* 2 [ ] QgsLayerTreeModel
+* [ ] QgsLayerItem (2)
+* [ ] QgsLayerTree (2)
+* [ ] QgsLayerTreeGroup (2)
+* [ ] QgsLayerTreeLayer (2)
+* [ ] QgsLayerTreeModel (2)
 * [ ] QgsLayerTreeModelLegendNode
-* 2 [ ] QgsLayerTreeNode
+* [ ] QgsLayerTreeNode (2)
 * [ ] QgsLayerTreeRegistryBridge
 * [ ] QgsLayerTreeUtils
 * [ ] QgsLegendModel
 * [ ] QgsLegendModelV2
-* 2 [ ] QgsLegendRenderer
+* [ ] QgsLegendRenderer (2)
 * [ ] QgsLegendSettings
 * [ ] QgsLegendSymbolItemV2
 * [ ] QgsLinePatternFillSymbolLayer
 * [ ] QgsLineStringV2
 * [ ] QgsLineSymbolLayerV2
-* 2 [ ] QgsLineSymbolV2
+* [ ] QgsLineSymbolV2 (2)
 * [ ] QgsLinearMinMaxEnhancement
 * [ ] QgsLinearMinMaxEnhancementWithClip
 * [ ] QgsLinearlyInterpolatedDiagramRenderer
 * [ ] QgsLogger
 * [ ] QgsMapHitTest
-* 1 [ ] QgsMapLayer
+* [ ] QgsMapLayer (1)
 * [ ] QgsMapLayerLegend
 * [ ] QgsMapLayerLegendUtils
-* 1 [ ] QgsMapLayerRegistry
+* [ ] QgsMapLayerRegistry (1)
 * [ ] QgsMapLayerRenderer
 * [ ] QgsMapLayerStyle
 * [ ] QgsMapLayerStyleManager
 * [ ] QgsMapRenderer
 * [ ] QgsMapRendererCache
 * [ ] QgsMapRendererCustomPainterJob
-* 1 [ ] QgsMapRendererJob
+* [ ] QgsMapRendererJob (1)
 * [ ] QgsMapRendererParallelJob
 * [ ] QgsMapRendererQImageJob
 * [ ] QgsMapRendererSequentialJob
-* 1 [ ] QgsMapSettings
-* 1 [ ] QgsMapToPixel
+* [ ] QgsMapSettings (1)
+* [ ] QgsMapToPixel (1)
 * [ ] QgsMapToPixelSimplifier
 * [ ] QgsMapUnitScale
 * [ ] QgsMarkerLineSymbolLayerV2
 * [ ] QgsMarkerSymbolLayerV2
-* 2 [ ] QgsMarkerSymbolV2
+* [ ] QgsMarkerSymbolV2 (2)
 * [ ] QgsMessageLog
 * [ ] QgsMessageLogConsole
 * [ ] QgsMessageOutput
@@ -277,7 +277,7 @@
 * [ ] QgsPaintEffectRegistry
 * [ ] QgsPaintEngineHack
 * [ ] QgsPalLabeling
-* 2 [ ] QgsPalLayerSettings
+* [ ] QgsPalLayerSettings (2)
 * [ ] QgsPalettedRasterRenderer
 * [ ] QgsPaperGrid
 * [ ] QgsPaperItem
@@ -287,13 +287,13 @@
 * [ ] QgsPluginLayer
 * [ ] QgsPluginLayerRegistry
 * [ ] QgsPluginLayerType
-* 2 [ ] QgsPoint
+* [ ] QgsPoint (2)
 * [ ] QgsPointDisplacementRenderer
 * [ ] QgsPointLocator
 * [ ] QgsPointPatternFillSymbolLayer
-* 2 [ ] QgsPointV2
-* 2 [ ] QgsPolygonV2
-* 1 [ ] QgsProject
+* [ ] QgsPointV2 (2)
+* [ ] QgsPolygonV2 (2)
+* [ ] QgsProject (1)
 * [ ] QgsProjectBadLayerDefaultHandler
 * [ ] QgsProjectBadLayerHandler
 * [ ] QgsProjectColorScheme
@@ -306,11 +306,11 @@
 * [ ] QgsProviderCountCalcEvent
 * [ ] QgsProviderExtentCalcEvent
 * [ ] QgsProviderMetadata
-* 2 [ ] QgsProviderRegistry
+* [ ] QgsProviderRegistry (2)
 * [ ] QgsPseudoColorShader
 * [ ] QgsPythonRunner
 * [ ] QgsRandomColorsV2
-* 2 [ ] QgsRaster
+* [ ] QgsRaster (2)
 * [ ] QgsRasterBandStats
 * [ ] QgsRasterBlock
 * [ ] QgsRasterChecker
@@ -320,15 +320,15 @@
 * [ ] QgsRasterFillSymbolLayer
 * [ ] QgsRasterHistogram
 * [ ] QgsRasterIdentifyResult
-* 2 [ ] QgsRasterInterface
-* 2 [ ] QgsRasterIterator
-* 1 [ ] QgsRasterLayer
+* [ ] QgsRasterInterface (2)
+* [ ] QgsRasterIterator (2)
+* [ ] QgsRasterLayer (1)
 * [ ] QgsRasterNuller
 * [ ] QgsRasterPipe
 * [ ] QgsRasterProjector
 * [ ] QgsRasterPyramid
 * [ ] QgsRasterRange
-* 2 [ ] QgsRasterRenderer
+* [ ] QgsRasterRenderer (2)
 * [ ] QgsRasterResampleFilter
 * [ ] QgsRasterResampler
 * [ ] QgsRasterShader
@@ -337,11 +337,11 @@
 * [ ] QgsRasterTransparency
 * [ ] QgsRasterViewPort
 * [ ] QgsRecentColorScheme
-* 2 [ ] QgsRectangle
-* 1 [ ] QgsRelation
+* [ ] QgsRectangle (2)
+* [ ] QgsRelation (1)
 * [ ] QgsRelationManager
 * [ ] QgsRenderChecker
-* 2 [ ] QgsRenderContext
+* [ ] QgsRenderContext (2)
 * [ ] QgsRendererCategoryV2
 * [ ] QgsRendererRangeV2
 * [ ] QgsRendererRangeV2LabelFormat
@@ -372,21 +372,21 @@
 * [ ] QgsSingleSymbolRendererV2
 * [ ] QgsSnapper
 * [ ] QgsSnappingResult
-* 1 [ ] QgsSnappingUtils
+* [ ] QgsSnappingUtils (1)
 * [ ] QgsSpatialIndex
 * [ ] QgsStatisticalSummary
 * [ ] QgsStringUtils
-* 2 [ ] QgsStyleV2
+* [ ] QgsStyleV2 (2)
 * [ ] QgsSurfaceV2
 * [ ] QgsSvgCache
 * [ ] QgsSvgCacheEntry
 * [ ] QgsSvgMarkerSymbolLayerV2
-* 2 [ ] QgsSymbolLayerV2
+* [ ] QgsSymbolLayerV2 (2)
 * [ ] QgsSymbolLayerV2AbstractMetadata
 * [ ] QgsSymbolLayerV2Metadata
-* 3 [ ] QgsSymbolLayerV2Registry
-* 3 [ ] QgsSymbolLayerV2Utils
-* 2 [ ] QgsSymbolV2
+* [ ] QgsSymbolLayerV2Registry (3)
+* [ ] QgsSymbolLayerV2Utils (3)
+* [ ] QgsSymbolV2 (2)
 * [ ] QgsSymbolV2LegendNode
 * [ ] QgsSymbolV2LevelItem
 * [ ] QgsSymbolV2RenderContext
@@ -404,12 +404,12 @@
 * [ ] QgsVector
 * [ ] QgsVectorColorBrewerColorRampV2
 * [ ] QgsVectorColorRampV2
-* 2 [ ] QgsVectorDataProvider
+* [ ] QgsVectorDataProvider (2)
 * [ ] QgsVectorFieldSymbolLayer
-* 1 [ ] QgsVectorFileWriter
+* [ ] QgsVectorFileWriter (1)
 * [ ] QgsVectorGradientColorRampV2
 * [ ] QgsVectorJoinInfo
-* 1 [ ] QgsVectorLayer
+* [ ] QgsVectorLayer (1)
 * [x] QgsVectorLayerCache
 * [ ] QgsVectorLayerEditBuffer
 * [ ] QgsVectorLayerEditPassthrough
