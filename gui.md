@@ -1,6 +1,6 @@
-* [ ] CharacterWidget
+* [x] CharacterWidget
 * [ ] QgisInterface
-* [ ] Qgs25DRendererWidget
+* [x] Qgs25DRendererWidget
 * [ ] QgsActionMenu (2)
 * [ ] QgsAdvancedDigitizingCanvasItem
 * [x] QgsAdvancedDigitizingDockWidget
@@ -153,7 +153,7 @@
 * [ ] QgsLongLongValidator
 * [ ] QgsManageConnectionsDialog
 * [ ] QgsMapCanvas ## Duplicate map in a new dialog or widget (1)
-* [ ] QgsMapCanvasItem ## Create a new class to show in heritance + try out the existing child class (1)
+* [ ] QgsMapCanvasItem ## Create a new class to show inheritance + try out the existing child class (1)
 * [ ] QgsMapCanvasLayer
 * [ ] QgsMapCanvasMap
 * [ ] QgsMapCanvasSnapper
