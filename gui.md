@@ -239,7 +239,7 @@
 * [ ] QgsSingleBandPseudoColorRendererWidget
 * [ ] QgsSingleSymbolRendererV2Widget
 * [ ] QgsSizeScaleWidget
-* [ ] QgsSlider
+* [x] QgsSlider
 * [ ] QgsSmartGroupCondition
 * [ ] QgsSmartGroupEditorDialog
 * [ ] QgsSpinBox
@@ -248,11 +248,11 @@
 * [ ] QgsStyleV2ManagerDialog
 * [x] QgsSublayersDialog
 * [x] QgsSvgAnnotationItem
-* [ ] QgsSvgMarkerSymbolLayerV2Widget
-* [ ] QgsSvgSelectorDialog
+* [x] QgsSvgMarkerSymbolLayerV2Widget
+* [x] QgsSvgSelectorDialog # Bug
 * [ ] QgsSvgSelectorGroupsModel
 * [ ] QgsSvgSelectorListModel
-* [ ] QgsSvgSelectorWidget
+* [x] QgsSvgSelectorWidget
 * [ ] QgsSymbolLayerV2Widget
 * [ ] QgsSymbolLevelsV2Dialog
 * [ ] QgsSymbolV2SelectorDialog
@@ -263,9 +263,9 @@
 * [ ] QgsUserInputDockWidget
 * [ ] QgsVariableEditorWidget
 * [ ] QgsVectorColorBrewerColorRampV2Dialog
-* [ ] QgsVectorFieldSymbolLayerWidget
-* [ ] QgsVectorGradientColorRampV2Dialog
+* [x] QgsVectorFieldSymbolLayerWidget
+* [x] QgsVectorGradientColorRampV2Dialog
 * [ ] QgsVectorLayerTools
-* [ ] QgsVectorRandomColorRampV2Dialog
+* [x] QgsVectorRandomColorRampV2Dialog
 * [x] QgsVertexMarker
 * [ ] QgsWidgetWrapper
