@@ -197,6 +197,7 @@
 * [ ] QgsInnerGlowEffect
 * [ ] QgsInnerShadowEffect
 * [ ] QgsInvertedPolygonRenderer
+* [x] QgsJSONUtils
 * [ ] QgsLabel
 * [ ] QgsLabelAttributes
 * [ ] QgsLabelCandidate
@@ -293,7 +294,7 @@
 * [ ] QgsPointPatternFillSymbolLayer
 * [ ] QgsPointV2 (2)
 * [ ] QgsPolygonV2 (2)
-* [ ] QgsProject (1)
+* [x] QgsProject
 * [ ] QgsProjectBadLayerDefaultHandler
 * [ ] QgsProjectBadLayerHandler
 * [ ] QgsProjectColorScheme
