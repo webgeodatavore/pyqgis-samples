@@ -16,11 +16,11 @@
 * [ ] QgsAttributeTableMapLayerAction
 * [x] QgsAttributeTableModel
 * [x] QgsAttributeTableView
-* [ ] QgsAttributeTypeLoadDialog
+* [x] QgsAttributeTypeLoadDialog
 * [ ] QgsAuthAuthoritiesEditor
 * [ ] QgsAuthCertEditors
 * [ ] QgsAuthCertInfo
-* [ ] QgsAuthCertInfoDialog
+* [x] QgsAuthCertInfoDialog
 * [ ] QgsAuthCertManager
 * [x] QgsAuthCertTrustPolicyComboBox
 * [ ] QgsAuthConfigEditor
@@ -32,7 +32,7 @@
 * [ ] QgsAuthImportIdentityDialog
 * [ ] QgsAuthMethodEdit
 * [ ] QgsAuthMethodPlugins
-* [ ] QgsAuthServersEditor
+* [x] QgsAuthServersEditor
 * [ ] QgsAuthSslConfigDialog
 * [ ] QgsAuthSslConfigWidget
 * [ ] QgsAuthSslErrorsDialog
@@ -46,7 +46,7 @@
 * [ ] QgsCategorizedSymbolRendererV2Widget
 * [ ] QgsCentroidFillSymbolLayerV2Widget
 * [x] QgsCharacterSelectorDialog
-* [ ] QgsCollapsibleGroupBox
+* [x] QgsCollapsibleGroupBox
 * [ ] QgsCollapsibleGroupBoxBasic
 * [x] QgsColorBox
 * [ ] QgsColorButton
@@ -133,7 +133,7 @@
 * [ ] QgsGraduatedHistogramWidget
 * [ ] QgsGraduatedSymbolRendererV2Widget
 * [ ] QgsGroupBoxCollapseButton
-* [ ] QgsGroupWMSDataDialog
+* [x] QgsGroupWMSDataDialog
 * [ ] QgsHeatmapRendererWidget
 * [x] QgsHighlight
 * [ ] QgsHistogramWidget
@@ -151,7 +151,7 @@
 * [ ] QgsLegendInterface
 * [ ] QgsLinePatternFillSymbolLayerWidget
 * [ ] QgsLongLongValidator
-* [ ] QgsManageConnectionsDialog
+* [x] QgsManageConnectionsDialog
 * [ ] QgsMapCanvas ## Duplicate map in a new dialog or widget (1)
 * [ ] QgsMapCanvasItem ## Create a new class to show inheritance + try out the existing child class (1)
 * [ ] QgsMapCanvasLayer
@@ -176,7 +176,7 @@
 * [ ] QgsMapToolIdentifyFeature
 * [x] QgsMapToolPan
 * [x] QgsMapToolZoom
-* [ ] QgsMapUnitScaleDialog
+* [x] QgsMapUnitScaleDialog
 * [ ] QgsMarkerLineSymbolLayerV2Widget
 * [x] QgsMessageBar
 * [ ] QgsMessageBarItem
