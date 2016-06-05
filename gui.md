@@ -43,7 +43,7 @@
 * [x] QgsBrowserTreeView
 * [x] QgsBrushStyleComboBox
 * [x] QgsBusyIndicatorDialog
-* [ ] QgsCategorizedSymbolRendererV2Widget
+* [x] QgsCategorizedSymbolRendererV2Widget
 * [ ] QgsCentroidFillSymbolLayerV2Widget
 * [x] QgsCharacterSelectorDialog
 * [x] QgsCollapsibleGroupBox
@@ -131,7 +131,7 @@
 * [ ] QgsGlowWidget
 * [ ] QgsGradientFillSymbolLayerV2Widget
 * [ ] QgsGraduatedHistogramWidget
-* [ ] QgsGraduatedSymbolRendererV2Widget
+* [x] QgsGraduatedSymbolRendererV2Widget
 * [ ] QgsGroupBoxCollapseButton
 * [x] QgsGroupWMSDataDialog
 * [ ] QgsHeatmapRendererWidget
@@ -185,12 +185,12 @@
 * [ ] QgsMultiBandColorRendererWidget
 * [ ] QgsNewHttpConnection
 * [x] QgsNewMemoryLayerDialog
-* [ ] QgsNewNameDialog
+* [x] QgsNewNameDialog # Used in "Add preset..."
 * [x] QgsNewVectorLayerDialog
 * [ ] QgsNumericSortTreeWidgetItem
 * [ ] QgsOWSSourceSelect
 * [ ] QgsOptionsDialogBase
-* [ ] QgsOrderByDialog
+* [x] QgsOrderByDialog
 * [ ] QgsPaintEffectPropertiesWidget
 * [ ] QgsPaintEffectWidget
 * [ ] QgsPalettedRendererWidget
@@ -222,7 +222,7 @@
 * [ ] QgsRendererV2Widget
 * [x] QgsRubberBand
 * [ ] QgsRuleBasedRendererV2Model
-* [ ] QgsRuleBasedRendererV2Widget
+* [x] QgsRuleBasedRendererV2Widget
 * [ ] QgsSVGFillSymbolLayerWidget
 * [x] QgsScaleComboBox
 * [ ] QgsScaleRangeWidget
@@ -237,7 +237,7 @@
 * [ ] QgsSimpleMarkerSymbolLayerV2Widget
 * [ ] QgsSingleBandGrayRendererWidget
 * [ ] QgsSingleBandPseudoColorRendererWidget
-* [ ] QgsSingleSymbolRendererV2Widget
+* [x] QgsSingleSymbolRendererV2Widget
 * [ ] QgsSizeScaleWidget
 * [x] QgsSlider
 * [ ] QgsSmartGroupCondition
