@@ -252,7 +252,7 @@
 * [ ] QgsMarkerLineSymbolLayerV2
 * [ ] QgsMarkerSymbolLayerV2
 * [ ] QgsMarkerSymbolV2 (2)
-* [ ] QgsMessageLog
+* [x] QgsMessageLog
 * [ ] QgsMessageLogConsole
 * [ ] QgsMessageOutput
 * [ ] QgsMessageOutputConsole
@@ -407,7 +407,7 @@
 * [ ] QgsVectorColorRampV2
 * [ ] QgsVectorDataProvider (2)
 * [ ] QgsVectorFieldSymbolLayer
-* [ ] QgsVectorFileWriter (1)
+* [x] QgsVectorFileWriter
 * [ ] QgsVectorGradientColorRampV2
 * [ ] QgsVectorJoinInfo
 * [ ] QgsVectorLayer (1)

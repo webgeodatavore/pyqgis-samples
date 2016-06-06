@@ -1,14 +1,14 @@
 * [x] CharacterWidget
 * [ ] QgisInterface
 * [x] Qgs25DRendererWidget
-* [ ] QgsActionMenu (2)
-* [ ] QgsAdvancedDigitizingCanvasItem
+* [x] QgsActionMenu
+* [ ] QgsAdvancedDigitizingCanvasItem #skipped
 * [x] QgsAdvancedDigitizingDockWidget
-* [ ] QgsAnnotationItem
+* [ ] QgsAnnotationItem # Abstract, skipped
 * [x] QgsAttributeDialog
 * [ ] QgsAttributeEditor
 * [ ] QgsAttributeEditorContext
-* [ ] QgsAttributeForm
+* [x] QgsAttributeForm
 * [ ] QgsAttributeFormInterface
 * [ ] QgsAttributeTableAction
 * [ ] QgsAttributeTableDelegate
