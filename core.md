@@ -42,7 +42,7 @@
 * [ ] QgsColorScheme
 * [ ] QgsColorSchemeRegistry (3)
 * [ ] QgsComposerArrow
-* [ ] QgsComposerAttributeTable
+* [ ] QgsComposerAttributeTable # Deprecated, skipped
 * [ ] QgsComposerAttributeTableColumnModel
 * [ ] QgsComposerAttributeTableColumnModelV2
 * [ ] QgsComposerAttributeTableCompare
@@ -84,7 +84,7 @@
 * [ ] QgsComposerTableSortColumnsProxyModelV2
 * [ ] QgsComposerTableStyle
 * [ ] QgsComposerTableV2
-* [ ] QgsComposerTextTable
+* [ ] QgsComposerTextTable # Deprecated, skipped
 * [ ] QgsComposerTextTableV2
 * [ ] QgsComposerUtils
 * [ ] QgsComposition (2)

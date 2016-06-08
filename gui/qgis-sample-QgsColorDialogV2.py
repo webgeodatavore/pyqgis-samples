@@ -1,5 +1,4 @@
 # coding: utf-8
-
 from PyQt4.QtCore import Qt  # http://doc.qt.io/qt-4.8/qwidget.html#windowFlags-prop
 from PyQt4.QtGui import QColor  # http://doc.qt.io/qt-4.8/qcolor.html
 from qgis.gui import QgsColorDialogV2

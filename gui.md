@@ -6,7 +6,7 @@
 * [x] QgsAdvancedDigitizingDockWidget
 * [ ] QgsAnnotationItem # Abstract, skipped
 * [x] QgsAttributeDialog
-* [ ] QgsAttributeEditor
+* [ ] QgsAttributeEditor  # Deprecated, skipped
 * [ ] QgsAttributeEditorContext
 * [x] QgsAttributeForm
 * [ ] QgsAttributeFormInterface
@@ -28,16 +28,16 @@
 * [ ] QgsAuthConfigUriEdit
 * [ ] QgsAuthEditorWidgets
 * [ ] QgsAuthIdentitiesEditor
-* [ ] QgsAuthImportCertDialog
-* [ ] QgsAuthImportIdentityDialog
+* [x] QgsAuthImportCertDialog
+* [x] QgsAuthImportIdentityDialog
 * [ ] QgsAuthMethodEdit
 * [ ] QgsAuthMethodPlugins
 * [x] QgsAuthServersEditor
-* [ ] QgsAuthSslConfigDialog
+* [x] QgsAuthSslConfigDialog
 * [ ] QgsAuthSslConfigWidget
-* [ ] QgsAuthSslErrorsDialog
-* [ ] QgsAuthSslImportDialog
-* [ ] QgsAuthTrustedCAsDialog
+* [x] QgsAuthSslErrorsDialog
+* [x] QgsAuthSslImportDialog
+* [x] QgsAuthTrustedCAsDialog
 * [x] QgsBlendModeComboBox + qgis-sample-QgsBlendModeComboBox-custom-signal.py
 * [ ] QgsBlurWidget
 * [x] QgsBrowserTreeView
@@ -49,9 +49,9 @@
 * [x] QgsCollapsibleGroupBox
 * [ ] QgsCollapsibleGroupBoxBasic
 * [x] QgsColorBox
-* [ ] QgsColorButton
+* [x] QgsColorButton
 * [x] QgsColorButtonV2
-* [ ] QgsColorDialog
+* [ ] QgsColorDialog  # Deprecated, nearly empty shell, skipped
 * [x] QgsColorDialogV2
 * [ ] QgsColorEffectWidget
 * [ ] QgsColorPreviewWidget
@@ -75,11 +75,11 @@
 * [x] QgsDashSpaceDialog
 * [ ] QgsDataDefinedAssistant
 * [ ] QgsDataDefinedButton
-* [ ] QgsDataDefinedRotationDialog
-* [ ] QgsDataDefinedSizeDialog
-* [ ] QgsDataDefinedSymbolDialog
-* [ ] QgsDataDefinedValueDialog
-* [ ] QgsDataDefinedWidthDialog
+* [ ] QgsDataDefinedRotationDialog (1)
+* [ ] QgsDataDefinedSizeDialog (1)
+* [ ] QgsDataDefinedSymbolDialog # Deprecated, skipped
+* [ ] QgsDataDefinedValueDialog (1)
+* [ ] QgsDataDefinedWidthDialog (1)
 * [ ] QgsDateTimeEdit
 * [ ] QgsDetailedItemData
 * [ ] QgsDetailedItemDelegate
@@ -95,17 +95,17 @@
 * [ ] QgsEditorWidgetWrapper
 * [x] QgsEffectDrawModeComboBox
 * [ ] QgsEffectStackCompactWidget
-* [ ] QgsEffectStackPropertiesDialog
+* [x] QgsEffectStackPropertiesDialog
 * [ ] QgsEffectStackPropertiesWidget
 * [ ] QgsEllipseSymbolLayerV2Widget
 * [x] QgsEncodingFileDialog
 * [x] QgsErrorDialog
-* [ ] QgsExpressionBuilderDialog
+* [x] QgsExpressionBuilderDialog
 * [ ] QgsExpressionBuilderWidget
 * [ ] QgsExpressionHighlighter
 * [ ] QgsExpressionItem
 * [ ] QgsExpressionItemSearchProxy
-* [ ] QgsExpressionSelectionDialog
+* [x] QgsExpressionSelectionDialog
 * [ ] QgsExtentGroupBox
 * [ ] QgsExternalResourceWidget
 * [ ] QgsFeatureListModel
@@ -209,7 +209,7 @@
 * [ ] QgsRasterFillSymbolLayerWidget
 * [ ] QgsRasterFormatSaveOptionsWidget
 * [ ] QgsRasterHistogramWidget
-* [ ] QgsRasterLayerSaveAsDialog
+* [ ] QgsRasterLayerSaveAsDialog (1)
 * [ ] QgsRasterMinMaxWidget
 * [ ] QgsRasterPyramidsOptionsWidget
 * [ ] QgsRasterRendererWidget
@@ -217,7 +217,7 @@
 * [ ] QgsRelationReferenceWidget
 * [ ] QgsRelationReferenceWidgetWrapper
 * [ ] QgsRelationWidgetWrapper
-* [ ] QgsRendererRulePropsDialog
+* [ ] QgsRendererRulePropsDialog (1)
 * [x] QgsRendererV2PropertiesDialog
 * [ ] QgsRendererV2Widget
 * [x] QgsRubberBand
@@ -241,11 +241,11 @@
 * [ ] QgsSizeScaleWidget
 * [x] QgsSlider
 * [ ] QgsSmartGroupCondition
-* [ ] QgsSmartGroupEditorDialog
+* [ ] QgsSmartGroupEditorDialog (1)
 * [ ] QgsSpinBox
-* [ ] QgsStyleV2ExportImportDialog
-* [ ] QgsStyleV2GroupSelectionDialog
-* [ ] QgsStyleV2ManagerDialog
+* [ ] QgsStyleV2ExportImportDialog (1)
+* [ ] QgsStyleV2GroupSelectionDialog (1)
+* [ ] QgsStyleV2ManagerDialog (1)
 * [x] QgsSublayersDialog
 * [x] QgsSvgAnnotationItem
 * [x] QgsSvgMarkerSymbolLayerV2Widget
@@ -254,15 +254,15 @@
 * [ ] QgsSvgSelectorListModel
 * [x] QgsSvgSelectorWidget
 * [ ] QgsSymbolLayerV2Widget
-* [ ] QgsSymbolLevelsV2Dialog
-* [ ] QgsSymbolV2SelectorDialog
+* [ ] QgsSymbolLevelsV2Dialog (1)
+* [ ] QgsSymbolV2SelectorDialog (1)
 * [ ] QgsSymbolsListWidget
 * [x] QgsTextAnnotationItem
 * [ ] QgsTransformWidget
 * [ ] QgsUnitSelectionWidget
 * [ ] QgsUserInputDockWidget
 * [ ] QgsVariableEditorWidget
-* [ ] QgsVectorColorBrewerColorRampV2Dialog
+* [x] QgsVectorColorBrewerColorRampV2Dialog
 * [x] QgsVectorFieldSymbolLayerWidget
 * [x] QgsVectorGradientColorRampV2Dialog
 * [ ] QgsVectorLayerTools
