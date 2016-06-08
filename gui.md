@@ -209,7 +209,7 @@
 * [ ] QgsRasterFillSymbolLayerWidget
 * [ ] QgsRasterFormatSaveOptionsWidget
 * [ ] QgsRasterHistogramWidget
-* [ ] QgsRasterLayerSaveAsDialog (1)
+* [x] QgsRasterLayerSaveAsDialog
 * [ ] QgsRasterMinMaxWidget
 * [ ] QgsRasterPyramidsOptionsWidget
 * [ ] QgsRasterRendererWidget
