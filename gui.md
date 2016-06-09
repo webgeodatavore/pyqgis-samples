@@ -183,7 +183,7 @@
 * [ ] QgsMessageLogViewer
 * [ ] QgsMessageViewer
 * [ ] QgsMultiBandColorRendererWidget
-* [ ] QgsNewHttpConnection
+* [x] QgsNewHttpConnection (capture)
 * [x] QgsNewMemoryLayerDialog
 * [x] QgsNewNameDialog # Used in "Add preset..."
 * [x] QgsNewVectorLayerDialog
@@ -217,7 +217,7 @@
 * [ ] QgsRelationReferenceWidget
 * [ ] QgsRelationReferenceWidgetWrapper
 * [ ] QgsRelationWidgetWrapper
-* [ ] QgsRendererRulePropsDialog (1)
+* [x] QgsRendererRulePropsDialog
 * [x] QgsRendererV2PropertiesDialog
 * [ ] QgsRendererV2Widget
 * [x] QgsRubberBand
@@ -241,11 +241,11 @@
 * [ ] QgsSizeScaleWidget
 * [x] QgsSlider
 * [ ] QgsSmartGroupCondition
-* [ ] QgsSmartGroupEditorDialog (1)
+* [x] QgsSmartGroupEditorDialog (capture)
 * [ ] QgsSpinBox
-* [ ] QgsStyleV2ExportImportDialog (1)
-* [ ] QgsStyleV2GroupSelectionDialog (1)
-* [ ] QgsStyleV2ManagerDialog (1)
+* [x] QgsStyleV2ExportImportDialog (capture)
+* [x] QgsStyleV2GroupSelectionDialog (capture)
+* [x] QgsStyleV2ManagerDialog (capture)
 * [x] QgsSublayersDialog
 * [x] QgsSvgAnnotationItem
 * [x] QgsSvgMarkerSymbolLayerV2Widget
@@ -254,8 +254,8 @@
 * [ ] QgsSvgSelectorListModel
 * [x] QgsSvgSelectorWidget
 * [ ] QgsSymbolLayerV2Widget
-* [ ] QgsSymbolLevelsV2Dialog (1)
-* [ ] QgsSymbolV2SelectorDialog (1)
+* [ ] QgsSymbolLevelsV2Dialog # Not available in python bindings, skipped
+* [x] QgsSymbolV2SelectorDialog (capture) # Appearance slightly changed in upcoming 2.16
 * [ ] QgsSymbolsListWidget
 * [x] QgsTextAnnotationItem
 * [ ] QgsTransformWidget
