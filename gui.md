@@ -2,9 +2,9 @@
 * [ ] QgisInterface
 * [x] Qgs25DRendererWidget
 * [x] QgsActionMenu
-* [ ] QgsAdvancedDigitizingCanvasItem #skipped
+* [ ] QgsAdvancedDigitizingCanvasItem  # skipped
 * [x] QgsAdvancedDigitizingDockWidget
-* [ ] QgsAnnotationItem # Abstract, skipped
+* [ ] QgsAnnotationItem  # Abstract, skipped
 * [x] QgsAttributeDialog
 * [ ] QgsAttributeEditor  # Deprecated, skipped
 * [ ] QgsAttributeEditorContext
@@ -17,34 +17,34 @@
 * [x] QgsAttributeTableModel
 * [x] QgsAttributeTableView
 * [x] QgsAttributeTypeLoadDialog
-* [ ] QgsAuthAuthoritiesEditor
-* [ ] QgsAuthCertEditors
-* [ ] QgsAuthCertInfo
+* [x] QgsAuthAuthoritiesEditor
+* [x] QgsAuthCertEditors
+* [x] QgsAuthCertInfo
 * [x] QgsAuthCertInfoDialog
-* [ ] QgsAuthCertManager
+* [x] QgsAuthCertManager
 * [x] QgsAuthCertTrustPolicyComboBox
-* [ ] QgsAuthConfigEditor
-* [ ] QgsAuthConfigSelect
-* [ ] QgsAuthConfigUriEdit
-* [ ] QgsAuthEditorWidgets
-* [ ] QgsAuthIdentitiesEditor
+* [x] QgsAuthConfigEditor
+* [x] QgsAuthConfigSelect
+* [x] QgsAuthConfigUriEdit
+* [x] QgsAuthEditorWidgets
+* [x] QgsAuthIdentitiesEditor
 * [x] QgsAuthImportCertDialog
 * [x] QgsAuthImportIdentityDialog
-* [ ] QgsAuthMethodEdit
-* [ ] QgsAuthMethodPlugins
+* [ ] QgsAuthMethodEdit # Abstract, skipped
+* [x] QgsAuthMethodPlugins
 * [x] QgsAuthServersEditor
 * [x] QgsAuthSslConfigDialog
-* [ ] QgsAuthSslConfigWidget
+* [x] QgsAuthSslConfigWidget
 * [x] QgsAuthSslErrorsDialog
 * [x] QgsAuthSslImportDialog
 * [x] QgsAuthTrustedCAsDialog
 * [x] QgsBlendModeComboBox + qgis-sample-QgsBlendModeComboBox-custom-signal.py
-* [ ] QgsBlurWidget
+* [x] QgsBlurWidget
 * [x] QgsBrowserTreeView
 * [x] QgsBrushStyleComboBox
 * [x] QgsBusyIndicatorDialog
 * [x] QgsCategorizedSymbolRendererV2Widget
-* [ ] QgsCentroidFillSymbolLayerV2Widget
+* [x] QgsCentroidFillSymbolLayerV2Widget
 * [x] QgsCharacterSelectorDialog
 * [x] QgsCollapsibleGroupBox
 * [ ] QgsCollapsibleGroupBoxBasic
@@ -77,7 +77,7 @@
 * [ ] QgsDataDefinedButton
 * [ ] QgsDataDefinedRotationDialog (1)
 * [ ] QgsDataDefinedSizeDialog (1)
-* [ ] QgsDataDefinedSymbolDialog # Deprecated, skipped
+* [ ] QgsDataDefinedSymbolDialog  # Deprecated, skipped
 * [ ] QgsDataDefinedValueDialog (1)
 * [ ] QgsDataDefinedWidthDialog (1)
 * [ ] QgsDateTimeEdit
@@ -152,8 +152,8 @@
 * [ ] QgsLinePatternFillSymbolLayerWidget
 * [ ] QgsLongLongValidator
 * [x] QgsManageConnectionsDialog
-* [ ] QgsMapCanvas ## Duplicate map in a new dialog or widget (1)
-* [ ] QgsMapCanvasItem ## Create a new class to show inheritance + try out the existing child class (1)
+* [x] QgsMapCanvas (capture)
+* [ ] QgsMapCanvasItem  # Create a new class to show inheritance + try out the existing child class (1)
 * [ ] QgsMapCanvasLayer
 * [ ] QgsMapCanvasMap
 * [ ] QgsMapCanvasSnapper
@@ -185,7 +185,7 @@
 * [ ] QgsMultiBandColorRendererWidget
 * [x] QgsNewHttpConnection (capture)
 * [x] QgsNewMemoryLayerDialog
-* [x] QgsNewNameDialog # Used in "Add preset..."
+* [x] QgsNewNameDialog  # Used in "Add preset..."
 * [x] QgsNewVectorLayerDialog
 * [ ] QgsNumericSortTreeWidgetItem
 * [ ] QgsOWSSourceSelect
@@ -254,8 +254,8 @@
 * [ ] QgsSvgSelectorListModel
 * [x] QgsSvgSelectorWidget
 * [ ] QgsSymbolLayerV2Widget
-* [ ] QgsSymbolLevelsV2Dialog # Not available in python bindings, skipped
-* [x] QgsSymbolV2SelectorDialog (capture) # Appearance slightly changed in upcoming 2.16
+* [ ] QgsSymbolLevelsV2Dialog  # Not available in python bindings, skipped
+* [x] QgsSymbolV2SelectorDialog (capture)  # Appearance slightly changed in upcoming 2.16
 * [ ] QgsSymbolsListWidget
 * [x] QgsTextAnnotationItem
 * [ ] QgsTransformWidget
