@@ -47,25 +47,25 @@
 * [x] QgsCentroidFillSymbolLayerV2Widget
 * [x] QgsCharacterSelectorDialog
 * [x] QgsCollapsibleGroupBox
-* [ ] QgsCollapsibleGroupBoxBasic
+* [x] QgsCollapsibleGroupBoxBasic
 * [x] QgsColorBox
 * [x] QgsColorButton
 * [x] QgsColorButtonV2
 * [ ] QgsColorDialog  # Deprecated, nearly empty shell, skipped
 * [x] QgsColorDialogV2
-* [ ] QgsColorEffectWidget
-* [ ] QgsColorPreviewWidget
+* [x] QgsColorEffectWidget
+* [x] QgsColorPreviewWidget
 * [x] QgsColorRampComboBox
-* [ ] QgsColorRampWidget
-* [ ] QgsColorSchemeList
-* [ ] QgsColorSchemeModel
-* [ ] QgsColorSliderWidget
+* [x] QgsColorRampWidget
+* [x] QgsColorSchemeList
+* [x] QgsColorSchemeModel
+* [x] QgsColorSliderWidget
 * [ ] QgsColorSwatchDelegate
-* [ ] QgsColorSwatchGrid
-* [ ] QgsColorSwatchGridAction
-* [ ] QgsColorTextWidget
+* [x] QgsColorSwatchGrid
+* [x] QgsColorSwatchGridAction
+* [x] QgsColorTextWidget
 * [x] QgsColorWheel
-* [ ] QgsColorWidget
+* [x] QgsColorWidget  # Base class, mainly useful for inheritance
 * [ ] QgsColorWidgetAction
 * [ ] QgsComposerRuler
 * [ ] QgsComposerView
