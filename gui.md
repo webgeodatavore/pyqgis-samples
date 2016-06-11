@@ -71,7 +71,7 @@
 * [ ] QgsComposerView
 * [x] QgsCptCityColorRampV2Dialog
 * [x] QgsCredentialDialog
-* [ ] QgsCustomLayerOrderWidget
+* [ ] QgsCustomLayerOrderWidget (1)
 * [x] QgsDashSpaceDialog
 * [ ] QgsDataDefinedAssistant
 * [ ] QgsDataDefinedButton
@@ -83,7 +83,7 @@
 * [x] QgsDateTimeEdit
 * [ ] QgsDetailedItemData
 * [ ] QgsDetailedItemDelegate
-* [ ] QgsDetailedItemWidget
+* [ ] QgsDetailedItemWidget (1)
 * [ ] QgsDial
 * [x] QgsDialog
 * [x] QgsDoubleSpinBox
@@ -94,7 +94,7 @@
 * [x] QgsEditorWidgetRegistry
 * [ ] QgsEditorWidgetWrapper
 * [x] QgsEffectDrawModeComboBox
-* [ ] QgsEffectStackCompactWidget
+* [ ] QgsEffectStackCompactWidget (1)
 * [x] QgsEffectStackPropertiesDialog
 * [x] QgsEffectStackPropertiesWidget
 * [x] QgsEllipseSymbolLayerV2Widget
@@ -134,22 +134,22 @@
 * [x] QgsGraduatedSymbolRendererV2Widget
 * [ ] QgsGroupBoxCollapseButton
 * [x] QgsGroupWMSDataDialog
-* [ ] QgsHeatmapRendererWidget
+* [x] QgsHeatmapRendererWidget
 * [x] QgsHighlight
-* [ ] QgsHistogramWidget
+* [x] QgsHistogramWidget
 * [x] QgsHtmlAnnotationItem
-* [ ] QgsIFeatureSelectionManager
+* [ ] QgsIFeatureSelectionManager  # Interface class, skipped
 * [ ] QgsIdentifyMenu
-* [ ] QgsInvertedPolygonRendererWidget
+* [x] QgsInvertedPolygonRendererWidget
 * [x] QgsLUDialog
-* [ ] QgsLayerPropertiesWidget
+* [x] QgsLayerPropertiesWidget
 * [ ] QgsLayerTreeMapCanvasBridge
 * [x] QgsLayerTreeView
 * [ ] QgsLayerTreeViewDefaultActions
 * [ ] QgsLayerTreeViewMenuProvider
 * [ ] QgsLegendFilterButton
 * [ ] QgsLegendInterface
-* [ ] QgsLinePatternFillSymbolLayerWidget
+* [ ] QgsLinePatternFillSymbolLayerWidget (1)
 * [ ] QgsLongLongValidator
 * [x] QgsManageConnectionsDialog
 * [x] QgsMapCanvas (capture)
@@ -177,12 +177,12 @@
 * [x] QgsMapToolPan
 * [x] QgsMapToolZoom
 * [x] QgsMapUnitScaleDialog
-* [ ] QgsMarkerLineSymbolLayerV2Widget
+* [ ] QgsMarkerLineSymbolLayerV2Widget (1)
 * [x] QgsMessageBar
 * [ ] QgsMessageBarItem
 * [ ] QgsMessageLogViewer
 * [ ] QgsMessageViewer
-* [ ] QgsMultiBandColorRendererWidget
+* [ ] QgsMultiBandColorRendererWidget (1)
 * [x] QgsNewHttpConnection (capture)
 * [x] QgsNewMemoryLayerDialog
 * [x] QgsNewNameDialog  # Used in "Add preset..."
@@ -191,58 +191,58 @@
 * [ ] QgsOWSSourceSelect
 * [ ] QgsOptionsDialogBase
 * [x] QgsOrderByDialog
-* [ ] QgsPaintEffectPropertiesWidget
+* [ ] QgsPaintEffectPropertiesWidget (1)
 * [ ] QgsPaintEffectWidget  # Base class, skipped
-* [ ] QgsPalettedRendererWidget
+* [ ] QgsPalettedRendererWidget (1)
 * [x] QgsPenCapStyleComboBox
 * [x] QgsPenJoinStyleComboBox
 * [x] QgsPenStyleComboBox
 * [ ] QgsPixmapLabel
 * [ ] QgsPluginManagerInterface
-* [ ] QgsPointDisplacementRendererWidget
-* [ ] QgsPointPatternFillSymbolLayerWidget
+* [ ] QgsPointDisplacementRendererWidget (1)
+* [ ] QgsPointPatternFillSymbolLayerWidget (1)
 * [ ] QgsPreviewEffect
 * [ ] QgsProjectBadLayerGuiHandler
-* [ ] QgsProjectionSelectionWidget
+* [ ] QgsProjectionSelectionWidget (1)
 * [x] QgsProjectionSelector
 * [x] QgsQueryBuilder
-* [ ] QgsRasterFillSymbolLayerWidget
-* [ ] QgsRasterFormatSaveOptionsWidget
-* [ ] QgsRasterHistogramWidget
+* [ ] QgsRasterFillSymbolLayerWidget (1)
+* [ ] QgsRasterFormatSaveOptionsWidget (1)
+* [ ] QgsRasterHistogramWidget (1)
 * [x] QgsRasterLayerSaveAsDialog
-* [ ] QgsRasterMinMaxWidget
-* [ ] QgsRasterPyramidsOptionsWidget
-* [ ] QgsRasterRendererWidget
-* [ ] QgsRelationEditorWidget
-* [ ] QgsRelationReferenceWidget
+* [ ] QgsRasterMinMaxWidget (1)
+* [ ] QgsRasterPyramidsOptionsWidget (1)
+* [ ] QgsRasterRendererWidget (1)
+* [ ] QgsRelationEditorWidget (1)
+* [ ] QgsRelationReferenceWidget (1)
 * [ ] QgsRelationReferenceWidgetWrapper
 * [ ] QgsRelationWidgetWrapper
 * [x] QgsRendererRulePropsDialog
 * [x] QgsRendererV2PropertiesDialog
-* [ ] QgsRendererV2Widget
+* [ ] QgsRendererV2Widget (1)
 * [x] QgsRubberBand
 * [ ] QgsRuleBasedRendererV2Model
 * [x] QgsRuleBasedRendererV2Widget
-* [ ] QgsSVGFillSymbolLayerWidget
+* [ ] QgsSVGFillSymbolLayerWidget (1)
 * [x] QgsScaleComboBox
-* [ ] QgsScaleRangeWidget
+* [ ] QgsScaleRangeWidget (1)
 * [x] QgsScaleVisibilityDialog
 * [x] QgsScaleWidget
 * [ ] QgsSearchQueryBuilder
 * [ ] QgsSearchWidgetWrapper
-* [ ] QgsShadowEffectWidget
-* [ ] QgsShapeburstFillSymbolLayerV2Widget
-* [ ] QgsSimpleFillSymbolLayerV2Widget
-* [ ] QgsSimpleLineSymbolLayerV2Widget
-* [ ] QgsSimpleMarkerSymbolLayerV2Widget
-* [ ] QgsSingleBandGrayRendererWidget
-* [ ] QgsSingleBandPseudoColorRendererWidget
+* [ ] QgsShadowEffectWidget (1)
+* [ ] QgsShapeburstFillSymbolLayerV2Widget (1)
+* [ ] QgsSimpleFillSymbolLayerV2Widget (1)
+* [ ] QgsSimpleLineSymbolLayerV2Widget (1)
+* [ ] QgsSimpleMarkerSymbolLayerV2Widget (1)
+* [ ] QgsSingleBandGrayRendererWidget (1)
+* [ ] QgsSingleBandPseudoColorRendererWidget (1)
 * [x] QgsSingleSymbolRendererV2Widget
-* [ ] QgsSizeScaleWidget
+* [x] QgsSizeScaleWidget
 * [x] QgsSlider
 * [ ] QgsSmartGroupCondition
 * [x] QgsSmartGroupEditorDialog (capture)
-* [ ] QgsSpinBox
+* [x] QgsSpinBox
 * [x] QgsStyleV2ExportImportDialog (capture)
 * [x] QgsStyleV2GroupSelectionDialog (capture)
 * [x] QgsStyleV2ManagerDialog (capture)
@@ -253,15 +253,15 @@
 * [ ] QgsSvgSelectorGroupsModel
 * [ ] QgsSvgSelectorListModel
 * [x] QgsSvgSelectorWidget
-* [ ] QgsSymbolLayerV2Widget
+* [ ] QgsSymbolLayerV2Widget (1)
 * [ ] QgsSymbolLevelsV2Dialog  # Not available in python bindings, skipped
 * [x] QgsSymbolV2SelectorDialog (capture)  # Appearance slightly changed in upcoming 2.16
-* [ ] QgsSymbolsListWidget
+* [ ] QgsSymbolsListWidget (1)
 * [x] QgsTextAnnotationItem
-* [ ] QgsTransformWidget
-* [ ] QgsUnitSelectionWidget
-* [ ] QgsUserInputDockWidget
-* [ ] QgsVariableEditorWidget
+* [ ] QgsTransformWidget (1)
+* [ ] QgsUnitSelectionWidget (1)
+* [ ] QgsUserInputDockWidget (1)
+* [ ] QgsVariableEditorWidget (1)
 * [x] QgsVectorColorBrewerColorRampV2Dialog
 * [x] QgsVectorFieldSymbolLayerWidget
 * [x] QgsVectorGradientColorRampV2Dialog
