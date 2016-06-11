@@ -67,7 +67,7 @@
 * [x] QgsColorWheel
 * [x] QgsColorWidget  # Base class, mainly useful for inheritance
 * [ ] QgsColorWidgetAction
-* [ ] QgsComposerRuler
+* [x] QgsComposerRuler
 * [ ] QgsComposerView
 * [x] QgsCptCityColorRampV2Dialog
 * [x] QgsCredentialDialog
@@ -80,57 +80,57 @@
 * [ ] QgsDataDefinedSymbolDialog  # Deprecated, skipped
 * [ ] QgsDataDefinedValueDialog (1)
 * [ ] QgsDataDefinedWidthDialog (1)
-* [ ] QgsDateTimeEdit
+* [x] QgsDateTimeEdit
 * [ ] QgsDetailedItemData
 * [ ] QgsDetailedItemDelegate
 * [ ] QgsDetailedItemWidget
 * [ ] QgsDial
 * [x] QgsDialog
-* [ ] QgsDoubleSpinBox
-* [ ] QgsDrawSourceWidget
+* [x] QgsDoubleSpinBox
+* [x] QgsDrawSourceWidget
 * [x] QgsDualView
-* [ ] QgsEditorConfigWidget
+* [ ] QgsEditorConfigWidget  # Abstract, skipped
 * [ ] QgsEditorWidgetFactory
 * [x] QgsEditorWidgetRegistry
 * [ ] QgsEditorWidgetWrapper
 * [x] QgsEffectDrawModeComboBox
 * [ ] QgsEffectStackCompactWidget
 * [x] QgsEffectStackPropertiesDialog
-* [ ] QgsEffectStackPropertiesWidget
-* [ ] QgsEllipseSymbolLayerV2Widget
+* [x] QgsEffectStackPropertiesWidget
+* [x] QgsEllipseSymbolLayerV2Widget
 * [x] QgsEncodingFileDialog
 * [x] QgsErrorDialog
 * [x] QgsExpressionBuilderDialog
-* [ ] QgsExpressionBuilderWidget
+* [x] QgsExpressionBuilderWidget
 * [ ] QgsExpressionHighlighter
 * [ ] QgsExpressionItem
 * [ ] QgsExpressionItemSearchProxy
 * [x] QgsExpressionSelectionDialog
-* [ ] QgsExtentGroupBox
-* [ ] QgsExternalResourceWidget
-* [ ] QgsFeatureListModel
-* [ ] QgsFeatureListView
+* [x] QgsExtentGroupBox
+* [x] QgsExternalResourceWidget
+* [x] QgsFeatureListModel
+* [x] QgsFeatureListView
 * [ ] QgsFeatureListViewDelegate
 * [ ] QgsFeatureModel
 * [ ] QgsFeatureSelectionDlg
 * [ ] QgsFeatureSelectionModel
 * [x] QgsFieldComboBox
-* [ ] QgsFieldConditionalFormatWidget
-* [ ] QgsFieldExpressionWidget
+* [x] QgsFieldConditionalFormatWidget
+* [x] QgsFieldExpressionWidget
 * [ ] QgsFieldModel
 * [ ] QgsFieldProxyModel
-* [ ] QgsFieldValidator
-* [ ] QgsFileDropEdit
-* [ ] QgsFileWidget
-* [ ] QgsFilterLineEdit
-* [ ] QgsFontMarkerSymbolLayerV2Widget
-* [ ] QgsFormAnnotationItem
+* [ ] QgsFieldValidator  # Abstract class, skipped
+* [x] QgsFileDropEdit
+* [x] QgsFileWidget
+* [x] QgsFilterLineEdit
+* [x] QgsFontMarkerSymbolLayerV2Widget
+* [x] QgsFormAnnotationItem
 * [x] QgsGenericProjectionSelector
-* [ ] QgsGeometryGeneratorSymbolLayerWidget
-* [ ] QgsGeometryRubberBand
-* [ ] QgsGlowWidget
-* [ ] QgsGradientFillSymbolLayerV2Widget
-* [ ] QgsGraduatedHistogramWidget
+* [x] QgsGeometryGeneratorSymbolLayerWidget
+* [x] QgsGeometryRubberBand
+* [x] QgsGlowWidget
+* [x] QgsGradientFillSymbolLayerV2Widget
+* [x] QgsGraduatedHistogramWidget
 * [x] QgsGraduatedSymbolRendererV2Widget
 * [ ] QgsGroupBoxCollapseButton
 * [x] QgsGroupWMSDataDialog
@@ -192,7 +192,7 @@
 * [ ] QgsOptionsDialogBase
 * [x] QgsOrderByDialog
 * [ ] QgsPaintEffectPropertiesWidget
-* [ ] QgsPaintEffectWidget
+* [ ] QgsPaintEffectWidget  # Base class, skipped
 * [ ] QgsPalettedRendererWidget
 * [x] QgsPenCapStyleComboBox
 * [x] QgsPenJoinStyleComboBox
