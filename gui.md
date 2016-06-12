@@ -219,22 +219,22 @@
 * [ ] QgsRelationWidgetWrapper
 * [x] QgsRendererRulePropsDialog
 * [x] QgsRendererV2PropertiesDialog
-* [ ] QgsRendererV2Widget (1)
+* [ ] QgsRendererV2Widget  # Abstract class, skipped
 * [x] QgsRubberBand
 * [ ] QgsRuleBasedRendererV2Model
 * [x] QgsRuleBasedRendererV2Widget
 * [ ] QgsSVGFillSymbolLayerWidget (1)
 * [x] QgsScaleComboBox
-* [ ] QgsScaleRangeWidget (1)
+* [x] QgsScaleRangeWidget
 * [x] QgsScaleVisibilityDialog
 * [x] QgsScaleWidget
-* [ ] QgsSearchQueryBuilder
+* [x] QgsSearchQueryBuilder
 * [ ] QgsSearchWidgetWrapper
-* [ ] QgsShadowEffectWidget (1)
-* [ ] QgsShapeburstFillSymbolLayerV2Widget (1)
-* [ ] QgsSimpleFillSymbolLayerV2Widget (1)
-* [ ] QgsSimpleLineSymbolLayerV2Widget (1)
-* [ ] QgsSimpleMarkerSymbolLayerV2Widget (1)
+* [x] QgsShadowEffectWidget
+* [x] QgsShapeburstFillSymbolLayerV2Widget
+* [x] QgsSimpleFillSymbolLayerV2Widget
+* [x] QgsSimpleLineSymbolLayerV2Widget
+* [x] QgsSimpleMarkerSymbolLayerV2Widget
 * [ ] QgsSingleBandGrayRendererWidget (1)
 * [ ] QgsSingleBandPseudoColorRendererWidget (1)
 * [x] QgsSingleSymbolRendererV2Widget
@@ -253,12 +253,12 @@
 * [ ] QgsSvgSelectorGroupsModel
 * [ ] QgsSvgSelectorListModel
 * [x] QgsSvgSelectorWidget
-* [ ] QgsSymbolLayerV2Widget (1)
+* [ ] QgsSymbolLayerV2Widget  # Abstract class, skipped
 * [ ] QgsSymbolLevelsV2Dialog  # Not available in python bindings, skipped
 * [x] QgsSymbolV2SelectorDialog (capture)  # Appearance slightly changed in upcoming 2.16
-* [ ] QgsSymbolsListWidget (1)
+* [x] QgsSymbolsListWidget
 * [x] QgsTextAnnotationItem
-* [ ] QgsTransformWidget (1)
+* [x] QgsTransformWidget
 * [x] QgsUnitSelectionWidget  # Bug to confirm
 * [x] QgsUserInputDockWidget
 * [x] QgsVariableEditorWidget
