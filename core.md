@@ -144,7 +144,7 @@
 * [ ] QgsEditFormConfig
 * [ ] QgsEffectStack
 * [ ] QgsEllipseSymbolLayerV2
-* [ ] QgsError
+* [x] QgsError
 * [ ] QgsErrorItem
 * [ ] QgsErrorMessage
 * [ ] QgsException
