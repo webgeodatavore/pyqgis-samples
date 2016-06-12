@@ -259,9 +259,9 @@
 * [ ] QgsSymbolsListWidget (1)
 * [x] QgsTextAnnotationItem
 * [ ] QgsTransformWidget (1)
-* [ ] QgsUnitSelectionWidget (1)
-* [ ] QgsUserInputDockWidget (1)
-* [ ] QgsVariableEditorWidget (1)
+* [x] QgsUnitSelectionWidget  # Bug to confirm
+* [x] QgsUserInputDockWidget
+* [x] QgsVariableEditorWidget
 * [x] QgsVectorColorBrewerColorRampV2Dialog
 * [x] QgsVectorFieldSymbolLayerWidget
 * [x] QgsVectorGradientColorRampV2Dialog
