@@ -3,18 +3,19 @@ from qgis.core import QgsStyleV2
 from qgis.gui import Qgs25DRendererWidget
 from qgis.utils import iface
 
+layer = iface.activeLayer()
 renderer_25D_widget = Qgs25DRendererWidget(
-    iface.activeLayer(),
+    layer,
     QgsStyleV2.defaultStyle(),
-    iface.activeLayer().rendererV2()
+    layer.rendererV2()
 )
 
 renderer_25D_widget.show()
 
 renderer_25D_widget_create = Qgs25DRendererWidget.create(
-    iface.activeLayer(),
+    layer,
     QgsStyleV2.defaultStyle(),
-    iface.activeLayer().rendererV2()
+    layer.rendererV2()
 )
 
 renderer_25D_widget_create.show()
