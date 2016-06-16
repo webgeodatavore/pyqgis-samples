@@ -1,0 +1,1 @@
+# QgsVectorColorBrewerColorRampV2

@@ -1,0 +1,1 @@
+# QgsComposerAttributeTableCompareV2

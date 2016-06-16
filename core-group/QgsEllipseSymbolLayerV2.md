@@ -1,0 +1,1 @@
+# QgsEllipseSymbolLayerV2

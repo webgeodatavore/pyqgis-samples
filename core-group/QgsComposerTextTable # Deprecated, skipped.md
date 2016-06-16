@@ -1,0 +1,1 @@
+# QgsComposerTextTable # Deprecated, skipped

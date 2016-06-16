@@ -1,0 +1,1 @@
+# QgsMarkerSymbolV2

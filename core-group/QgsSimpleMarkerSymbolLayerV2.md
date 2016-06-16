@@ -1,0 +1,1 @@
+# QgsSimpleMarkerSymbolLayerV2

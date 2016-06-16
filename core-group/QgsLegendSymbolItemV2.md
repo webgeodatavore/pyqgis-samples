@@ -1,0 +1,1 @@
+# QgsLegendSymbolItemV2

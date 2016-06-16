@@ -1,0 +1,1 @@
+# QgsSingleSymbolRendererV2

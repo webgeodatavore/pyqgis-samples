@@ -1,0 +1,1 @@
+# QgsColorEffect

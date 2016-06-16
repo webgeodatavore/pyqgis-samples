@@ -1,0 +1,1 @@
+# QgsRendererV2Registry

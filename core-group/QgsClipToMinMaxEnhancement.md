@@ -1,0 +1,1 @@
+# QgsClipToMinMaxEnhancement

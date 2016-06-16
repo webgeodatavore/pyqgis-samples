@@ -1,0 +1,1 @@
+# QgsLineSymbolV2

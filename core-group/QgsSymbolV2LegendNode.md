@@ -1,0 +1,1 @@
+# QgsSymbolV2LegendNode

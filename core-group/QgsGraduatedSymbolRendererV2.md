@@ -1,0 +1,1 @@
+# QgsGraduatedSymbolRendererV2

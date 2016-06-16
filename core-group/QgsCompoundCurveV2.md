@@ -1,0 +1,1 @@
+# QgsCompoundCurveV2

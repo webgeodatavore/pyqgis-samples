@@ -1,0 +1,1 @@
+# QgsCurvePolygonV2
