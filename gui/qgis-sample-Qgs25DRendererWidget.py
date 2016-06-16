@@ -1,5 +1,4 @@
 # coding: utf-8
-
 from qgis.core import QgsStyleV2
 from qgis.gui import Qgs25DRendererWidget
 from qgis.utils import iface

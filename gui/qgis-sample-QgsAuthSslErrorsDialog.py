@@ -1,7 +1,8 @@
 # coding: utf-8
 from PyQt4.QtCore import QUrl
 from PyQt4.QtNetwork import QNetworkRequest, QSslError
-from qgis.gui import QgsAuthSslErrorsDialog, QgsNetworkAccessManager
+from qgis.core import QgsNetworkAccessManager
+from qgis.gui import QgsAuthSslErrorsDialog
 
 url = 'http://fm4dd.com/openssl/source/PEM/certs/1024b-rsa-example-cert.pem'
 

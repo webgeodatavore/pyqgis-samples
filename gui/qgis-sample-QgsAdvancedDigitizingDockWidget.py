@@ -11,5 +11,5 @@ iface.addDockWidget(Qt.RightDockWidgetArea, dock)
 iface.removeDockWidget(dock)
 
 # Access to the existing instance instead of the newly created one
-print iface.cadDockWidget()  # Return QGIS existing instance of QgsAdvancedDigitizingDockWidget
+print(iface.cadDockWidget())  # Return QGIS existing instance of QgsAdvancedDigitizingDockWidget
 iface.cadDockWidget().show()

@@ -24,5 +24,5 @@ def on_widget_changed():
     else:
         canvas.refresh()
 
-categorized_symbol_renderer_v2_widget.widgetChanged.connect(on_widget_changed)
+categorized_symbol_renderer_v2_widget.widgetChanged.connect(on_widget_changed)  # Not working with 2.14 version. Need master
 categorized_symbol_renderer_v2_widget.show()
