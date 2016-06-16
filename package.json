@@ -3,21 +3,21 @@
   "version": "1.0.0",
   "description": "The QGIS API based on C++ comments can scare new Python QGIS users when they need to go further.",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "gh-pages": "^0.11.0",
     "gitbook-plugin-include-codeblock": "^1.9.0"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "node deploy.js"
+    "deploy": "gh-pages -d ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webgeodatavore/pyqgis-samples.git"
   },
   "author": "Thomas Gratier",
-  "license": "GPL-2.0+",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/webgeodatavore/pyqgis-samples/issues"
   },
