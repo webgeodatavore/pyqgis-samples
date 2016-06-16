@@ -53,7 +53,7 @@
         data-chapter-title="QgsColorPreviewWidget"
         data-filepath="gui-group/QgsColorPreviewWidget.md"
         data-basepath=".."
-        data-revision="Thu Jun 16 2016 16:30:46 GMT+0100 (BST)"
+        data-revision="Thu Jun 16 2016 21:49:05 GMT+0100 (BST)"
         data-innerlanguage="">
     
 
@@ -2776,7 +2776,8 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsColorPreviewWidget-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsColorPreviewWidget.py" href="../gui/qgis-sample-QgsColorPreviewWidget.py">qgis-sample-QgsColorPreviewWidget.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
@@ -2793,6 +2794,8 @@ color_preview_widget.setColor2(preview_color)  <span class="hljs-comment"># Set 
 print(color_preview_widget.componentValue(QgsColorWidget.Red))
 print(color_preview_widget.componentValue(QgsColorWidget.Green))
 print(color_preview_widget.componentValue(QgsColorWidget.Blue))
+
+color_preview_widget.resize(<span class="hljs-number">70</span>, <span class="hljs-number">50</span>)
 
 color_preview_widget.show()
 </code></pre>
@@ -2833,9 +2836,13 @@ color_preview_widget.show()
     <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
     
 
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
 <script>
 require(["gitbook"], function(gitbook) {
-    var config = {"include-codeblock":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    var config = {"include-codeblock":{},"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
     gitbook.start(config);
 });
 </script>

@@ -13,4 +13,6 @@ print(color_preview_widget.componentValue(QgsColorWidget.Red))
 print(color_preview_widget.componentValue(QgsColorWidget.Green))
 print(color_preview_widget.componentValue(QgsColorWidget.Blue))
 
+color_preview_widget.resize(70, 50)
+
 color_preview_widget.show()
