@@ -236,17 +236,17 @@
 * [x] QgsSimpleLineSymbolLayerV2Widget
 * [x] QgsSimpleMarkerSymbolLayerV2Widget
 * [ ] QgsSingleBandGrayRendererWidget (1)
-* [ ] QgsSingleBandPseudoColorRendererWidget (1)
-* [x] QgsSingleSymbolRendererV2Widget
-* [x] QgsSizeScaleWidget
-* [x] QgsSlider
+* [x] QgsSingleBandPseudoColorRendererWidget (standalone only)
+* [x] QgsSingleSymbolRendererV2Widget (standalone only)
+* [x] QgsSizeScaleWidget (standalone only)
+* [x] QgsSlider (standalone only)
 * [ ] QgsSmartGroupCondition
 * [x] QgsSmartGroupEditorDialog (capture)
-* [x] QgsSpinBox
+* [x] QgsSpinBox (standalone only)
 * [x] QgsStyleV2ExportImportDialog (capture)
 * [x] QgsStyleV2GroupSelectionDialog (capture)
 * [x] QgsStyleV2ManagerDialog (capture)
-* [x] QgsSublayersDialog
+* [x] QgsSublayersDialog (standalone only)
 * [x] QgsSvgAnnotationItem (standalone only)
 * [x] QgsSvgMarkerSymbolLayerV2Widget (standalone only)
 * [x] QgsSvgSelectorDialog (standalone only)

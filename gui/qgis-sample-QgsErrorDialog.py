@@ -4,16 +4,17 @@ from qgis.core import QgsError
 from qgis.gui import QgsErrorDialog
 from qgis.utils import iface
 
+main_window = iface.mainWindow()
 error_dialog = QgsErrorDialog(
     QgsError("My error message", "My GDAL tag"),
     "My title",
-    iface.mainWindow(),
+    main_window,
     fl=Qt.WindowFlags()
 )
 
 error_dialog.show(
     QgsError("My error message", "My GDAL tag"),
     "My title",
-    iface.mainWindow(),
+    main_window,
     fl=Qt.WindowFlags()
 )
