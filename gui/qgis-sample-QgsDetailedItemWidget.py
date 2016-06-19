@@ -2,6 +2,7 @@
 from qgis.gui import QgsDetailedItemData, QgsDetailedItemWidget
 
 detailed_item_widget = QgsDetailedItemWidget()
+detailed_item_widget.resize(300, 240)
 
 detailed_item_data = QgsDetailedItemData()
 detailed_item_data.setCategory('myCategory')

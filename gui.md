@@ -67,12 +67,12 @@
 * [x] QgsColorWheel (standalone only)
 * [x] QgsColorWidget  # Base class, mainly useful for inheritance
 * [ ] QgsColorWidgetAction
-* [x] QgsComposerRuler
+* [x] QgsComposerRuler (standalone only)
 * [ ] QgsComposerView
-* [x] QgsCptCityColorRampV2Dialog
-* [x] QgsCredentialDialog
-* [x] QgsCustomLayerOrderWidget
-* [x] QgsDashSpaceDialog
+* [x] QgsCptCityColorRampV2Dialog (standalone only)
+* [x] QgsCredentialDialog (standalone only)
+* [x] QgsCustomLayerOrderWidget (standalone only)
+* [x] QgsDashSpaceDialog (standalone only)
 * [ ] QgsDataDefinedAssistant
 * [ ] QgsDataDefinedButton
 * [ ] QgsDataDefinedRotationDialog (1)
@@ -80,14 +80,14 @@
 * [ ] QgsDataDefinedSymbolDialog  # Deprecated, skipped
 * [ ] QgsDataDefinedValueDialog (1)
 * [ ] QgsDataDefinedWidthDialog (1)
-* [x] QgsDateTimeEdit
-* [ ] QgsDetailedItemData
-* [ ] QgsDetailedItemDelegate
-* [x] QgsDetailedItemWidget
+* [x] QgsDateTimeEdit (standalone only)
+* [x] QgsDetailedItemData (standalone only)
+* [ ] QgsDetailedItemDelegate (standalone only)
+* [x] QgsDetailedItemWidget (standalone only)
 * [ ] QgsDial
-* [x] QgsDialog
-* [x] QgsDoubleSpinBox
-* [x] QgsDrawSourceWidget
+* [x] QgsDialog (standalone only)
+* [x] QgsDoubleSpinBox (standalone only)
+* [x] QgsDrawSourceWidget (standalone only)
 * [x] QgsDualView
 * [ ] QgsEditorConfigWidget  # Abstract, skipped
 * [ ] QgsEditorWidgetFactory
@@ -249,7 +249,7 @@
 * [x] QgsSublayersDialog
 * [x] QgsSvgAnnotationItem
 * [x] QgsSvgMarkerSymbolLayerV2Widget
-* [x] QgsSvgSelectorDialog # Bug
+* [x] QgsSvgSelectorDialog # Bug = extremely slow on a Linux box
 * [ ] QgsSvgSelectorGroupsModel
 * [ ] QgsSvgSelectorListModel
 * [x] QgsSvgSelectorWidget
@@ -260,12 +260,12 @@
 * [x] QgsTextAnnotationItem
 * [x] QgsTransformWidget
 * [x] QgsUnitSelectionWidget  # Bug to confirm
-* [x] QgsUserInputDockWidget
-* [x] QgsVariableEditorWidget
-* [x] QgsVectorColorBrewerColorRampV2Dialog
-* [x] QgsVectorFieldSymbolLayerWidget
-* [x] QgsVectorGradientColorRampV2Dialog
+* [x] QgsUserInputDockWidget (standalone only)
+* [x] QgsVariableEditorWidget (standalone only)
+* [x] QgsVectorColorBrewerColorRampV2Dialog (standalone only)
+* [x] QgsVectorFieldSymbolLayerWidget (standalone only)
+* [x] QgsVectorGradientColorRampV2Dialog (standalone only)
 * [ ] QgsVectorLayerTools
-* [x] QgsVectorRandomColorRampV2Dialog
-* [x] QgsVertexMarker
+* [x] QgsVectorRandomColorRampV2Dialog (standalone only)
+* [x] QgsVertexMarker (standalone only)
 * [ ] QgsWidgetWrapper

@@ -3,8 +3,9 @@ from PyQt4.QtCore import Qt  # http://doc.qt.io/qt-4.8/qwidget.html#windowFlags-
 from qgis.gui import QgsCredentialDialog
 from qgis.utils import iface
 
+main_window = iface.mainWindow()
 credential_dialog = QgsCredentialDialog(
-    iface.mainWindow(),
+    main_window,
     fl=Qt.WindowFlags()
 )
 
