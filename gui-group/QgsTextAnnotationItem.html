@@ -53,7 +53,7 @@
         data-chapter-title="QgsTextAnnotationItem"
         data-filepath="gui-group/QgsTextAnnotationItem.md"
         data-basepath=".."
-        data-revision="Sun Jun 19 2016 04:22:42 GMT+0200 (CEST)"
+        data-revision="Sun Jun 19 2016 23:15:39 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2776,7 +2776,8 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsTextAnnotationItem-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsTextAnnotationItem.py" href="../gui/qgis-sample-QgsTextAnnotationItem.py">qgis-sample-QgsTextAnnotationItem.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
@@ -2786,24 +2787,25 @@
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsTextAnnotationItem
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
-annotationItem = QgsTextAnnotationItem(iface.mapCanvas())
+canvas = iface.mapCanvas()
+text_annotation_item = QgsTextAnnotationItem(canvas)
 X, Y = float(<span class="hljs-number">3</span>), float(<span class="hljs-number">45</span>)
 point = QgsPoint(X, Y)
-annotationItem.setMapPosition(point)
-annotationItem.setFrameSize(QSizeF(<span class="hljs-number">300</span>, <span class="hljs-number">200</span>))
-annotationItem.setFrameColor(QColor(<span class="hljs-number">0</span>, <span class="hljs-number">255</span>, <span class="hljs-number">0</span>))
-annotationItem.setFrameBackgroundColor(QColor(<span class="hljs-number">128</span>, <span class="hljs-number">128</span>, <span class="hljs-number">128</span>))
+text_annotation_item.setMapPosition(point)
+text_annotation_item.setFrameSize(QSizeF(<span class="hljs-number">300</span>, <span class="hljs-number">200</span>))
+text_annotation_item.setFrameColor(QColor(<span class="hljs-number">0</span>, <span class="hljs-number">255</span>, <span class="hljs-number">0</span>))
+text_annotation_item.setFrameBackgroundColor(QColor(<span class="hljs-number">128</span>, <span class="hljs-number">128</span>, <span class="hljs-number">128</span>))
 text_document = QTextDocument()
 html_content = <span class="hljs-string">&quot;&lt;b&gt;New annotation&lt;/b&gt;&quot;</span>
 font_color, font_family, font_size = <span class="hljs-string">&quot;#123456&quot;</span>, <span class="hljs-string">&quot;Times New Roman&quot;</span>, <span class="hljs-number">16</span>
 text_document.setHtml(<span class="hljs-string">&apos;&lt;font style=&quot;color:&apos;</span> + font_color +
                       <span class="hljs-string">&quot;; font-family:&quot;</span> + font_family + <span class="hljs-string">&quot;; font-size: &quot;</span> +
                       str(font_size) + <span class="hljs-string">&apos;px&quot;&gt;&apos;</span> + html_content + <span class="hljs-string">&quot;&lt;/font&gt;&quot;</span>)
-annotationItem.setDocument(text_document)
-iface.mapCanvas().refresh()
+text_annotation_item.setDocument(text_document)
+canvas.refresh()
 
 <span class="hljs-comment"># Then remove</span>
-<span class="hljs-comment"># iface.mapCanvas().scene().removeItem(annotationItem)</span>
+<span class="hljs-comment"># canvas.scene().removeItem(text_annotation_item)</span>
 </code></pre>
 
                     

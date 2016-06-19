@@ -53,7 +53,7 @@
         data-chapter-title="QgsSvgSelectorWidget"
         data-filepath="gui-group/QgsSvgSelectorWidget.md"
         data-basepath=".."
-        data-revision="Sun Jun 19 2016 04:22:42 GMT+0200 (CEST)"
+        data-revision="Sun Jun 19 2016 23:15:39 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2776,11 +2776,28 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsSvgSelectorWidget-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsSvgSelectorWidget.py" href="../gui/qgis-sample-QgsSvgSelectorWidget.py">qgis-sample-QgsSvgSelectorWidget.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
+<span class="hljs-keyword">from</span> PyQt4.QtCore <span class="hljs-keyword">import</span> QSettings
+<span class="hljs-keyword">from</span> qgis.core <span class="hljs-keyword">import</span> QgsApplication
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsSvgSelectorWidget
+
+<span class="hljs-comment"># Print the SVG paths</span>
+print(QgsApplication.svgPaths())
+
+<span class="hljs-comment"># Specific to our use case.</span>
+<span class="hljs-comment"># QgsApplication.setDefaultSvgPaths did not alter all the paths.</span>
+<span class="hljs-comment"># Default value for &quot;svg/searchPathsForSVG&quot; is $HOME but as we had many git</span>
+<span class="hljs-comment"># repositories under $HOME, QGIS was scanning all of them to look for SVG.</span>
+<span class="hljs-comment"># Uncomment or not depending of your case</span>
+<span class="hljs-comment"># s = QSettings()</span>
+<span class="hljs-comment"># s.setValue(&quot;svg/searchPathsForSVG&quot;, &quot;/tmp&quot;)  # Change the path if on Windows</span>
+
+<span class="hljs-comment"># To confirm the difference if you apply above two previous lines</span>
+print(QgsApplication.svgPaths())
 
 svg_selector_widget = QgsSvgSelectorWidget()
 svg_selector_widget.show()

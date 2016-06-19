@@ -53,7 +53,7 @@
         data-chapter-title="QgsSvgAnnotationItem"
         data-filepath="gui-group/QgsSvgAnnotationItem.md"
         data-basepath=".."
-        data-revision="Sun Jun 19 2016 04:22:42 GMT+0200 (CEST)"
+        data-revision="Sun Jun 19 2016 23:15:39 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2776,7 +2776,8 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsSvgAnnotationItem-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsSvgAnnotationItem.py" href="../gui/qgis-sample-QgsSvgAnnotationItem.py">qgis-sample-QgsSvgAnnotationItem.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
@@ -2788,15 +2789,18 @@
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsSvgAnnotationItem
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
-annotationSvgItem = QgsSvgAnnotationItem(iface.mapCanvas())
+canvas = iface.mapCanvas()
+svg_annotation_item = QgsSvgAnnotationItem(canvas)
 X, Y = float(<span class="hljs-number">3</span>), float(<span class="hljs-number">45</span>)
 point = QgsPoint(X, Y)
-annotationSvgItem.setMapPosition(point)
-annotationSvgItem.setFrameSize(QSizeF(<span class="hljs-number">300</span>, <span class="hljs-number">200</span>))
-annotationSvgItem.setFrameColor(QColor(<span class="hljs-number">0</span>, <span class="hljs-number">255</span>, <span class="hljs-number">0</span>))
-annotationSvgItem.setFrameBackgroundColor(QColor(<span class="hljs-number">128</span>, <span class="hljs-number">128</span>, <span class="hljs-number">128</span>))
+svg_annotation_item.setMapPosition(point)
+svg_annotation_item.setFrameSize(QSizeF(<span class="hljs-number">300</span>, <span class="hljs-number">200</span>))
+svg_annotation_item.setFrameColor(QColor(<span class="hljs-number">0</span>, <span class="hljs-number">255</span>, <span class="hljs-number">0</span>))
+svg_annotation_item.setFrameBackgroundColor(QColor(<span class="hljs-number">128</span>, <span class="hljs-number">128</span>, <span class="hljs-number">128</span>))
 
-print(inspect.getfile(inspect.currentframe()))  <span class="hljs-comment"># script filename (usually with path)</span>
+print(
+    inspect.getfile(inspect.currentframe())
+)  <span class="hljs-comment"># script filename (usually with path)</span>
 
 svg_path = os.path.join(
     os.path.dirname(
@@ -2808,11 +2812,11 @@ svg_path = os.path.join(
 )
 
 <span class="hljs-comment"># Choose an alternate SVG file</span>
-annotationSvgItem.setFilePath(svg_path)
-iface.mapCanvas().refresh()
+svg_annotation_item.setFilePath(svg_path)
+canvas.refresh()
 
 <span class="hljs-comment"># Remove from canevas</span>
-<span class="hljs-comment"># iface.mapCanvas().scene().removeItem(annotationSvgItem)</span>
+<span class="hljs-comment"># canvas.scene().removeItem(svg_annotation_item)</span>
 </code></pre>
 
                     
