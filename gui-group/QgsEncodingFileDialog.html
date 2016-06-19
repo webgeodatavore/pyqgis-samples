@@ -53,7 +53,7 @@
         data-chapter-title="QgsEncodingFileDialog"
         data-filepath="gui-group/QgsEncodingFileDialog.md"
         data-basepath=".."
-        data-revision="Sun Jun 19 2016 23:15:39 GMT+0200 (CEST)"
+        data-revision="Mon Jun 20 2016 00:37:06 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2776,18 +2776,20 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsEncodingFileDialog-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsEncodingFileDialog.py" href="../gui/qgis-sample-QgsEncodingFileDialog.py">qgis-sample-QgsEncodingFileDialog.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsEncodingFileDialog
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
+main_window = iface.mainWindow()
 encoding_file_dialog = QgsEncodingFileDialog(
-    iface.mainWindow(),
-    caption=<span class="hljs-string">u&quot;Nom de la fen&#xEA;tre&quot;</span>,
-    directory=<span class="hljs-string">&quot;mon_fichier.txt&quot;</span>,
-    filter=<span class="hljs-string">&quot;Texte (*.txt *.csv)&quot;</span>,
+    main_window,
+    caption=<span class="hljs-string">u&quot;Window name&quot;</span>,
+    directory=<span class="hljs-string">&quot;myfilename.txt&quot;</span>,
+    filter=<span class="hljs-string">&quot;Text (*.txt *.csv)&quot;</span>,
     encoding=<span class="hljs-string">&quot;utf-8&quot;</span>
 )
 

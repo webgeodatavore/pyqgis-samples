@@ -2,11 +2,12 @@
 from qgis.gui import QgsEncodingFileDialog
 from qgis.utils import iface
 
+main_window = iface.mainWindow()
 encoding_file_dialog = QgsEncodingFileDialog(
-    iface.mainWindow(),
-    caption=u"Nom de la fenêtre",
-    directory="mon_fichier.txt",
-    filter="Texte (*.txt *.csv)",
+    main_window,
+    caption=u"Window name",
+    directory="myfilename.txt",
+    filter="Text (*.txt *.csv)",
     encoding="utf-8"
 )
 

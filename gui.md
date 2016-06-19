@@ -88,18 +88,18 @@
 * [x] QgsDialog (standalone only)
 * [x] QgsDoubleSpinBox (standalone only)
 * [x] QgsDrawSourceWidget (standalone only)
-* [x] QgsDualView
+* [x] QgsDualView (standalone only)
 * [ ] QgsEditorConfigWidget  # Abstract, skipped
 * [ ] QgsEditorWidgetFactory
-* [x] QgsEditorWidgetRegistry
+* [x] QgsEditorWidgetRegistry  # TODO: improve, not clear
 * [ ] QgsEditorWidgetWrapper
-* [x] QgsEffectDrawModeComboBox
-* [x] QgsEffectStackCompactWidget
-* [x] QgsEffectStackPropertiesDialog
-* [x] QgsEffectStackPropertiesWidget
-* [x] QgsEllipseSymbolLayerV2Widget
-* [x] QgsEncodingFileDialog
-* [x] QgsErrorDialog
+* [x] QgsEffectDrawModeComboBox (standalone only)
+* [x] QgsEffectStackCompactWidget (standalone only)
+* [x] QgsEffectStackPropertiesDialog (standalone only)
+* [x] QgsEffectStackPropertiesWidget (standalone only)
+* [x] QgsEllipseSymbolLayerV2Widget (standalone only)
+* [x] QgsEncodingFileDialog (standalone only)
+* [x] QgsErrorDialog (standalone only)
 * [x] QgsExpressionBuilderDialog
 * [x] QgsExpressionBuilderWidget
 * [ ] QgsExpressionHighlighter
