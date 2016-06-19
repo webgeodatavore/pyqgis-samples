@@ -53,7 +53,7 @@
         data-chapter-title="QgsDialog"
         data-filepath="gui-group/QgsDialog.md"
         data-basepath=".."
-        data-revision="Thu Jun 16 2016 22:34:51 GMT+0100 (BST)"
+        data-revision="Sun Jun 19 2016 04:22:42 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2776,7 +2776,8 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsDialog-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsDialog.py" href="../gui/qgis-sample-QgsDialog.py">qgis-sample-QgsDialog.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
@@ -2785,7 +2786,8 @@
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsDialog
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
-dialog = QgsDialog(iface.mainWindow(),
+main_window = iface.mainWindow()
+dialog = QgsDialog(main_window,
                    fl=Qt.WindowFlags(),
                    buttons=QDialogButtonBox.Close,
                    orientation=Qt.Horizontal)

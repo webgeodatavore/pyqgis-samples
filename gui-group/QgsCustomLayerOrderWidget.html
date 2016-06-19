@@ -53,7 +53,7 @@
         data-chapter-title="QgsCustomLayerOrderWidget"
         data-filepath="gui-group/QgsCustomLayerOrderWidget.md"
         data-basepath=".."
-        data-revision="Thu Jun 16 2016 22:34:51 GMT+0100 (BST)"
+        data-revision="Sun Jun 19 2016 04:22:42 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2776,15 +2776,17 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsCustomLayerOrderWidget-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsCustomLayerOrderWidget.py" href="../gui/qgis-sample-QgsCustomLayerOrderWidget.py">qgis-sample-QgsCustomLayerOrderWidget.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsCustomLayerOrderWidget
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
+layer_tree_canvas_bridge = iface.layerTreeCanvasBridge()
 custom_layer_order_widget = QgsCustomLayerOrderWidget(
-    iface.layerTreeCanvasBridge()
+    layer_tree_canvas_bridge
 )
 
 custom_layer_order_widget.show()

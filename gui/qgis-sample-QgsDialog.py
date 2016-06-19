@@ -4,7 +4,8 @@ from PyQt4.QtGui import QDialogButtonBox  # http://doc.qt.io/qt-4.8/qcolor.html
 from qgis.gui import QgsDialog
 from qgis.utils import iface
 
-dialog = QgsDialog(iface.mainWindow(),
+main_window = iface.mainWindow()
+dialog = QgsDialog(main_window,
                    fl=Qt.WindowFlags(),
                    buttons=QDialogButtonBox.Close,
                    orientation=Qt.Horizontal)

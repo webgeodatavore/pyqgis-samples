@@ -53,7 +53,7 @@
         data-chapter-title="QgsVectorFieldSymbolLayerWidget"
         data-filepath="gui-group/QgsVectorFieldSymbolLayerWidget.md"
         data-basepath=".."
-        data-revision="Thu Jun 16 2016 22:34:51 GMT+0100 (BST)"
+        data-revision="Sun Jun 19 2016 04:22:42 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2776,11 +2776,20 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsVectorFieldSymbolLayerWidget-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsVectorFieldSymbolLayerWidget.py" href="../gui/qgis-sample-QgsVectorFieldSymbolLayerWidget.py">qgis-sample-QgsVectorFieldSymbolLayerWidget.py</a></p>
 </blockquote>
-<pre><code class="lang-python">
+<pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
+<span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsVectorFieldSymbolLayerWidget
+<span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
+layer = iface.activeLayer()
+vector_field_symbol_layer_widget = QgsVectorFieldSymbolLayerWidget(
+    layer
+)
+
+vector_field_symbol_layer_widget.show()
 </code></pre>
 
                     

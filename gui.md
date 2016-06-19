@@ -1,78 +1,78 @@
-* [x] CharacterWidget
+* [x] CharacterWidget (standalone only)
 * [ ] QgisInterface
-* [x] Qgs25DRendererWidget
+* [x] Qgs25DRendererWidget (standalone only)
 * [x] QgsActionMenu
 * [ ] QgsAdvancedDigitizingCanvasItem  # skipped
-* [x] QgsAdvancedDigitizingDockWidget
+* [x] QgsAdvancedDigitizingDockWidget (standalone only)
 * [ ] QgsAnnotationItem  # Abstract, skipped
-* [x] QgsAttributeDialog
+* [x] QgsAttributeDialog (standalone only)
 * [ ] QgsAttributeEditor  # Deprecated, skipped
 * [ ] QgsAttributeEditorContext
-* [x] QgsAttributeForm
+* [x] QgsAttributeForm (standalone only)
 * [ ] QgsAttributeFormInterface
 * [ ] QgsAttributeTableAction
 * [ ] QgsAttributeTableDelegate
-* [x] QgsAttributeTableFilterModel
+* [x] QgsAttributeTableFilterModel (standalone only)
 * [ ] QgsAttributeTableMapLayerAction
-* [x] QgsAttributeTableModel
-* [x] QgsAttributeTableView
-* [x] QgsAttributeTypeLoadDialog
-* [x] QgsAuthAuthoritiesEditor
-* [x] QgsAuthCertEditors
-* [x] QgsAuthCertInfo
-* [x] QgsAuthCertInfoDialog
-* [x] QgsAuthCertManager
-* [x] QgsAuthCertTrustPolicyComboBox
-* [x] QgsAuthConfigEditor
-* [x] QgsAuthConfigSelect
-* [x] QgsAuthConfigUriEdit
-* [x] QgsAuthEditorWidgets
-* [x] QgsAuthIdentitiesEditor
-* [x] QgsAuthImportCertDialog
-* [x] QgsAuthImportIdentityDialog
+* [x] QgsAttributeTableModel (standalone only)
+* [x] QgsAttributeTableView (standalone only)
+* [x] QgsAttributeTypeLoadDialog (standalone only)
+* [x] QgsAuthAuthoritiesEditor (standalone only)
+* [x] QgsAuthCertEditors (standalone only)
+* [x] QgsAuthCertInfo (standalone only)
+* [x] QgsAuthCertInfoDialog (standalone only)
+* [x] QgsAuthCertManager (standalone only)
+* [x] QgsAuthCertTrustPolicyComboBox (standalone only)
+* [x] QgsAuthConfigEditor (standalone only)
+* [x] QgsAuthConfigSelect (standalone only)
+* [x] QgsAuthConfigUriEdit (standalone only)
+* [x] QgsAuthEditorWidgets (standalone only)
+* [x] QgsAuthIdentitiesEditor (standalone only)
+* [x] QgsAuthImportCertDialog (standalone only)
+* [x] QgsAuthImportIdentityDialog (standalone only)
 * [ ] QgsAuthMethodEdit # Abstract, skipped
-* [x] QgsAuthMethodPlugins
-* [x] QgsAuthServersEditor
-* [x] QgsAuthSslConfigDialog
-* [x] QgsAuthSslConfigWidget
-* [x] QgsAuthSslErrorsDialog
-* [x] QgsAuthSslImportDialog
-* [x] QgsAuthTrustedCAsDialog
-* [x] QgsBlendModeComboBox + qgis-sample-QgsBlendModeComboBox-custom-signal.py
-* [x] QgsBlurWidget
-* [x] QgsBrowserTreeView
-* [x] QgsBrushStyleComboBox
-* [x] QgsBusyIndicatorDialog
-* [x] QgsCategorizedSymbolRendererV2Widget
-* [x] QgsCentroidFillSymbolLayerV2Widget
-* [x] QgsCharacterSelectorDialog
-* [x] QgsCollapsibleGroupBox
-* [x] QgsCollapsibleGroupBoxBasic
-* [x] QgsColorBox
-* [x] QgsColorButton
-* [x] QgsColorButtonV2
+* [x] QgsAuthMethodPlugins (standalone only)
+* [x] QgsAuthServersEditor (standalone only)
+* [x] QgsAuthSslConfigDialog (standalone only)
+* [x] QgsAuthSslConfigWidget (standalone only)
+* [x] QgsAuthSslErrorsDialog (standalone only)
+* [x] QgsAuthSslImportDialog (standalone only)
+* [x] QgsAuthTrustedCAsDialog (standalone only)
+* [x] QgsBlendModeComboBox (standalone only) + qgis-sample-QgsBlendModeComboBox-custom-signal.py
+* [x] QgsBlurWidget (standalone only)
+* [x] QgsBrowserTreeView (standalone only)
+* [x] QgsBrushStyleComboBox (standalone only)
+* [x] QgsBusyIndicatorDialog (standalone only)
+* [x] QgsCategorizedSymbolRendererV2Widget (standalone only)
+* [x] QgsCentroidFillSymbolLayerV2Widget (standalone only)
+* [x] QgsCharacterSelectorDialog  (standalone only)
+* [x] QgsCollapsibleGroupBox (standalone only)
+* [x] QgsCollapsibleGroupBoxBasic (standalone only)
+* [x] QgsColorBox (standalone only)
+* [x] QgsColorButton (standalone only)
+* [x] QgsColorButtonV2 (standalone only)
 * [ ] QgsColorDialog  # Deprecated, nearly empty shell, skipped
-* [x] QgsColorDialogV2
-* [x] QgsColorEffectWidget
-* [x] QgsColorPreviewWidget
-* [x] QgsColorRampComboBox
-* [x] QgsColorRampWidget
-* [x] QgsColorSchemeList
-* [x] QgsColorSchemeModel
-* [x] QgsColorSliderWidget
+* [x] QgsColorDialogV2 (standalone only)
+* [x] QgsColorEffectWidget (standalone only)
+* [x] QgsColorPreviewWidget (standalone only)
+* [x] QgsColorRampComboBox (standalone only)
+* [x] QgsColorRampWidget (standalone only)
+* [x] QgsColorSchemeList (standalone only)
+* [x] QgsColorSchemeModel (standalone only)
+* [x] QgsColorSliderWidget (standalone only)
 * [ ] QgsColorSwatchDelegate
-* [x] QgsColorSwatchGrid
-* [x] QgsColorSwatchGridAction
-* [x] QgsColorTextWidget
-* [x] QgsColorWheel
+* [x] QgsColorSwatchGrid (standalone only)
+* [x] QgsColorSwatchGridAction (standalone only)
+* [x] QgsColorTextWidget (standalone only)
+* [x] QgsColorWheel (standalone only)
 * [x] QgsColorWidget  # Base class, mainly useful for inheritance
 * [ ] QgsColorWidgetAction
-* [x] QgsComposerRuler
+* [x] QgsComposerRuler (standalone only)
 * [ ] QgsComposerView
-* [x] QgsCptCityColorRampV2Dialog
-* [x] QgsCredentialDialog
-* [x] QgsCustomLayerOrderWidget
-* [x] QgsDashSpaceDialog
+* [x] QgsCptCityColorRampV2Dialog (standalone only)
+* [x] QgsCredentialDialog (standalone only)
+* [x] QgsCustomLayerOrderWidget (standalone only)
+* [x] QgsDashSpaceDialog (standalone only)
 * [ ] QgsDataDefinedAssistant
 * [ ] QgsDataDefinedButton
 * [ ] QgsDataDefinedRotationDialog (1)
@@ -80,14 +80,14 @@
 * [ ] QgsDataDefinedSymbolDialog  # Deprecated, skipped
 * [ ] QgsDataDefinedValueDialog (1)
 * [ ] QgsDataDefinedWidthDialog (1)
-* [x] QgsDateTimeEdit
-* [ ] QgsDetailedItemData
-* [ ] QgsDetailedItemDelegate
-* [x] QgsDetailedItemWidget
+* [x] QgsDateTimeEdit (standalone only)
+* [x] QgsDetailedItemData (standalone only)
+* [ ] QgsDetailedItemDelegate (standalone only)
+* [x] QgsDetailedItemWidget (standalone only)
 * [ ] QgsDial
-* [x] QgsDialog
-* [x] QgsDoubleSpinBox
-* [x] QgsDrawSourceWidget
+* [x] QgsDialog (standalone only)
+* [x] QgsDoubleSpinBox (standalone only)
+* [x] QgsDrawSourceWidget (standalone only)
 * [x] QgsDualView
 * [ ] QgsEditorConfigWidget  # Abstract, skipped
 * [ ] QgsEditorWidgetFactory
@@ -249,7 +249,7 @@
 * [x] QgsSublayersDialog
 * [x] QgsSvgAnnotationItem
 * [x] QgsSvgMarkerSymbolLayerV2Widget
-* [x] QgsSvgSelectorDialog # Bug
+* [x] QgsSvgSelectorDialog # Bug = extremely slow on a Linux box
 * [ ] QgsSvgSelectorGroupsModel
 * [ ] QgsSvgSelectorListModel
 * [x] QgsSvgSelectorWidget
@@ -260,12 +260,12 @@
 * [x] QgsTextAnnotationItem
 * [x] QgsTransformWidget
 * [x] QgsUnitSelectionWidget  # Bug to confirm
-* [x] QgsUserInputDockWidget
-* [x] QgsVariableEditorWidget
-* [x] QgsVectorColorBrewerColorRampV2Dialog
-* [x] QgsVectorFieldSymbolLayerWidget
-* [x] QgsVectorGradientColorRampV2Dialog
+* [x] QgsUserInputDockWidget (standalone only)
+* [x] QgsVariableEditorWidget (standalone only)
+* [x] QgsVectorColorBrewerColorRampV2Dialog (standalone only)
+* [x] QgsVectorFieldSymbolLayerWidget (standalone only)
+* [x] QgsVectorGradientColorRampV2Dialog (standalone only)
 * [ ] QgsVectorLayerTools
-* [x] QgsVectorRandomColorRampV2Dialog
-* [x] QgsVertexMarker
+* [x] QgsVectorRandomColorRampV2Dialog (standalone only)
+* [x] QgsVertexMarker (standalone only)
 * [ ] QgsWidgetWrapper

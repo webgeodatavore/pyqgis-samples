@@ -53,7 +53,7 @@
         data-chapter-title="QgsDetailedItemWidget"
         data-filepath="gui-group/QgsDetailedItemWidget.md"
         data-basepath=".."
-        data-revision="Thu Jun 16 2016 22:34:51 GMT+0100 (BST)"
+        data-revision="Sun Jun 19 2016 04:22:42 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2776,13 +2776,15 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsDetailedItemWidget-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsDetailedItemWidget.py" href="../gui/qgis-sample-QgsDetailedItemWidget.py">qgis-sample-QgsDetailedItemWidget.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsDetailedItemData, QgsDetailedItemWidget
 
 detailed_item_widget = QgsDetailedItemWidget()
+detailed_item_widget.resize(<span class="hljs-number">300</span>, <span class="hljs-number">240</span>)
 
 detailed_item_data = QgsDetailedItemData()
 detailed_item_data.setCategory(<span class="hljs-string">&apos;myCategory&apos;</span>)

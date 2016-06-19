@@ -53,7 +53,7 @@
         data-chapter-title="QgsGeometryRubberBand"
         data-filepath="gui-group/QgsGeometryRubberBand.md"
         data-basepath=".."
-        data-revision="Thu Jun 16 2016 22:34:51 GMT+0100 (BST)"
+        data-revision="Sun Jun 19 2016 04:22:42 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2787,7 +2787,16 @@
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
 canvas = iface.mapCanvas()
-<span class="hljs-comment"># To show a polyline</span>
+
+<span class="hljs-comment"># To show a point (Replace QgsVertexMarker if you are using QgsAbstractGeometryV2 geometries)</span>
+r = QgsGeometryRubberBand(canvas, QGis.Point)
+point = QgsPointV2(<span class="hljs-number">2</span>, <span class="hljs-number">1</span>)
+r.setGeometry(point)
+
+<span class="hljs-comment"># Remove the rubber band item</span>
+canvas.scene().removeItem(r)
+
+<span class="hljs-comment"># To show a polyline (Replace QgsRubberBand if you are using QgsAbstractGeometryV2 geometries)</span>
 r = QgsGeometryRubberBand(canvas, QGis.Line)
 points = [QgsPointV2(-<span class="hljs-number">1</span>, -<span class="hljs-number">1</span>), QgsPointV2(<span class="hljs-number">0</span>, <span class="hljs-number">1</span>), QgsPointV2(<span class="hljs-number">1</span>, -<span class="hljs-number">1</span>)]
 linestring = QgsLineStringV2()
@@ -2797,7 +2806,7 @@ r.setGeometry(linestring)
 <span class="hljs-comment"># Remove the rubber band item</span>
 canvas.scene().removeItem(r)
 
-<span class="hljs-comment"># To show a polygon</span>
+<span class="hljs-comment"># To show a polygon (Replace QgsRubberBand if you are using QgsAbstractGeometryV2 geometries)</span>
 r = QgsGeometryRubberBand(canvas, QGis.Polygon)
 points = [QgsPointV2(-<span class="hljs-number">1</span>, -<span class="hljs-number">1</span>), QgsPointV2(<span class="hljs-number">0</span>, <span class="hljs-number">1</span>), QgsPointV2(<span class="hljs-number">1</span>, -<span class="hljs-number">1</span>)]
 linestring = QgsLineStringV2()

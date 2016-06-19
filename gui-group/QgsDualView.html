@@ -53,7 +53,7 @@
         data-chapter-title="QgsDualView"
         data-filepath="gui-group/QgsDualView.md"
         data-basepath=".."
-        data-revision="Thu Jun 16 2016 22:34:51 GMT+0100 (BST)"
+        data-revision="Sun Jun 19 2016 04:22:42 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2776,15 +2776,18 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsDualView-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsDualView.py" href="../gui/qgis-sample-QgsDualView.py">qgis-sample-QgsDualView.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsDualView
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
+layer = iface.activeLayer()
+canvas = iface.mapCanvas()
 dv = QgsDualView()
-dv.init(iface.activeLayer(), iface.mapCanvas())  <span class="hljs-comment"># The active layer is a vector layer</span>
+dv.init(layer, canvas)  <span class="hljs-comment"># The active layer is a vector layer</span>
 dv.setView(QgsDualView.AttributeEditor)  <span class="hljs-comment"># It could be QgsDualView.AttributeTable instead</span>
 dv.show()
 </code></pre>
