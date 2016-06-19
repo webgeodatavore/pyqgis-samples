@@ -5,7 +5,7 @@ from qgis.gui import QgsEffectDrawModeComboBox
 
 # Create dialog and resize it
 new_dialog = QDialog()
-new_dialog.resize(800, 600)
+new_dialog.resize(250, 75)
 
 effect_draw_mode_combo_box = QgsEffectDrawModeComboBox(new_dialog)
 
