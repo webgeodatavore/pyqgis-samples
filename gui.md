@@ -247,18 +247,18 @@
 * [x] QgsStyleV2GroupSelectionDialog (capture)
 * [x] QgsStyleV2ManagerDialog (capture)
 * [x] QgsSublayersDialog
-* [x] QgsSvgAnnotationItem
-* [x] QgsSvgMarkerSymbolLayerV2Widget
-* [x] QgsSvgSelectorDialog # Bug = extremely slow on a Linux box
+* [x] QgsSvgAnnotationItem (standalone only)
+* [x] QgsSvgMarkerSymbolLayerV2Widget (standalone only)
+* [x] QgsSvgSelectorDialog (standalone only)
 * [ ] QgsSvgSelectorGroupsModel
 * [ ] QgsSvgSelectorListModel
-* [x] QgsSvgSelectorWidget
+* [x] QgsSvgSelectorWidget (standalone only)
 * [ ] QgsSymbolLayerV2Widget  # Abstract class, skipped
 * [ ] QgsSymbolLevelsV2Dialog  # Not available in python bindings, skipped
 * [x] QgsSymbolV2SelectorDialog (capture)  # Appearance slightly changed in upcoming 2.16
-* [x] QgsSymbolsListWidget
-* [x] QgsTextAnnotationItem
-* [x] QgsTransformWidget
+* [x] QgsSymbolsListWidget (standalone only)
+* [x] QgsTextAnnotationItem (standalone only)
+* [x] QgsTransformWidget (standalone only)
 * [x] QgsUnitSelectionWidget  # Bug to confirm
 * [x] QgsUserInputDockWidget (standalone only)
 * [x] QgsVariableEditorWidget (standalone only)

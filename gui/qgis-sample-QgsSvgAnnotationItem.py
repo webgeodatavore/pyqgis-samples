@@ -7,15 +7,18 @@ from qgis.core import QgsPoint
 from qgis.gui import QgsSvgAnnotationItem
 from qgis.utils import iface
 
-annotationSvgItem = QgsSvgAnnotationItem(iface.mapCanvas())
+canvas = iface.mapCanvas()
+svg_annotation_item = QgsSvgAnnotationItem(canvas)
 X, Y = float(3), float(45)
 point = QgsPoint(X, Y)
-annotationSvgItem.setMapPosition(point)
-annotationSvgItem.setFrameSize(QSizeF(300, 200))
-annotationSvgItem.setFrameColor(QColor(0, 255, 0))
-annotationSvgItem.setFrameBackgroundColor(QColor(128, 128, 128))
+svg_annotation_item.setMapPosition(point)
+svg_annotation_item.setFrameSize(QSizeF(300, 200))
+svg_annotation_item.setFrameColor(QColor(0, 255, 0))
+svg_annotation_item.setFrameBackgroundColor(QColor(128, 128, 128))
 
-print(inspect.getfile(inspect.currentframe()))  # script filename (usually with path)
+print(
+    inspect.getfile(inspect.currentframe())
+)  # script filename (usually with path)
 
 svg_path = os.path.join(
     os.path.dirname(
@@ -27,8 +30,8 @@ svg_path = os.path.join(
 )
 
 # Choose an alternate SVG file
-annotationSvgItem.setFilePath(svg_path)
-iface.mapCanvas().refresh()
+svg_annotation_item.setFilePath(svg_path)
+canvas.refresh()
 
 # Remove from canevas
-# iface.mapCanvas().scene().removeItem(annotationSvgItem)
+# canvas.scene().removeItem(svg_annotation_item)

@@ -1,1 +1,1 @@
-[import](../gui/qgis-sample-QgsSymbolLayerV2Widget.py)
+{% include "QgsSymbolLayerV2Widget-description.md" %}
