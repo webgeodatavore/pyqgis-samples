@@ -1,6 +1,8 @@
 # coding: utf-8
+from PyQt4.QtGui import QWidget
 from qgis.gui import QgsExpressionBuilderWidget
 
-expression_builder_widget = QgsExpressionBuilderWidget()
+w = QWidget()
+expression_builder_widget = QgsExpressionBuilderWidget(w)
 
-expression_builder_widget.show()
+w.show()
