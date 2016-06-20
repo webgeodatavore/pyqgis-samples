@@ -100,23 +100,23 @@
 * [x] QgsEllipseSymbolLayerV2Widget (standalone only)
 * [x] QgsEncodingFileDialog (standalone only)
 * [x] QgsErrorDialog (standalone only)
-* [x] QgsExpressionBuilderDialog
-* [x] QgsExpressionBuilderWidget
+* [x] QgsExpressionBuilderDialog (standalone only)
+* [x] QgsExpressionBuilderWidget (standalone only)
 * [ ] QgsExpressionHighlighter
 * [ ] QgsExpressionItem
 * [ ] QgsExpressionItemSearchProxy
-* [x] QgsExpressionSelectionDialog
-* [x] QgsExtentGroupBox
-* [x] QgsExternalResourceWidget
-* [x] QgsFeatureListModel
-* [x] QgsFeatureListView
+* [x] QgsExpressionSelectionDialog (standalone only)
+* [x] QgsExtentGroupBox (standalone only)
+* [x] QgsExternalResourceWidget (standalone only)
+* [x] QgsFeatureListModel (standalone only)
+* [x] QgsFeatureListView (standalone only)
 * [ ] QgsFeatureListViewDelegate
 * [ ] QgsFeatureModel
 * [ ] QgsFeatureSelectionDlg
 * [ ] QgsFeatureSelectionModel
-* [x] QgsFieldComboBox
-* [x] QgsFieldConditionalFormatWidget
-* [x] QgsFieldExpressionWidget
+* [x] QgsFieldComboBox (standalone only)
+* [x] QgsFieldConditionalFormatWidget (standalone only)
+* [x] QgsFieldExpressionWidget (standalone only)
 * [ ] QgsFieldModel
 * [ ] QgsFieldProxyModel
 * [ ] QgsFieldValidator  # Abstract class, skipped
@@ -235,7 +235,7 @@
 * [x] QgsSimpleFillSymbolLayerV2Widget
 * [x] QgsSimpleLineSymbolLayerV2Widget
 * [x] QgsSimpleMarkerSymbolLayerV2Widget
-* [ ] QgsSingleBandGrayRendererWidget (1)
+* [x] QgsSingleBandGrayRendererWidget (standalone only)
 * [x] QgsSingleBandPseudoColorRendererWidget (standalone only)
 * [x] QgsSingleSymbolRendererV2Widget (standalone only)
 * [x] QgsSizeScaleWidget (standalone only)

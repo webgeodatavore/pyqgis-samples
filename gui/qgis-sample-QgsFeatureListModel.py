@@ -8,7 +8,7 @@ from qgis.gui import (QgsAttributeTableFilterModel, QgsAttributeTableModel,
 from qgis.utils import iface
 
 new_dialog = QDialog()
-new_dialog.resize(800, 600)
+new_dialog.resize(270, 210)
 
 layer = iface.activeLayer()
 canvas = iface.mapCanvas()
