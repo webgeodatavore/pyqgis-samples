@@ -53,7 +53,7 @@
         data-chapter-title="QgsGeometryRubberBand"
         data-filepath="gui-group/QgsGeometryRubberBand.md"
         data-basepath=".."
-        data-revision="Mon Jun 20 2016 02:12:47 GMT+0200 (CEST)"
+        data-revision="Tue Jun 21 2016 01:44:41 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2821,7 +2821,8 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsGeometryRubberBand-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsGeometryRubberBand.py" href="../gui/qgis-sample-QgsGeometryRubberBand.py">qgis-sample-QgsGeometryRubberBand.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
@@ -2834,41 +2835,37 @@
 canvas = iface.mapCanvas()
 
 <span class="hljs-comment"># To show a point (Replace QgsVertexMarker if you are using QgsAbstractGeometryV2 geometries)</span>
-r = QgsGeometryRubberBand(canvas, QGis.Point)
+r_point = QgsGeometryRubberBand(canvas, QGis.Point)
 point = QgsPointV2(<span class="hljs-number">2</span>, <span class="hljs-number">1</span>)
-r.setGeometry(point)
-
-<span class="hljs-comment"># Remove the rubber band item</span>
-canvas.scene().removeItem(r)
+r_point.setGeometry(point)
 
 <span class="hljs-comment"># To show a polyline (Replace QgsRubberBand if you are using QgsAbstractGeometryV2 geometries)</span>
-r = QgsGeometryRubberBand(canvas, QGis.Line)
+r_polyline = QgsGeometryRubberBand(canvas, QGis.Line)
 points = [QgsPointV2(-<span class="hljs-number">1</span>, -<span class="hljs-number">1</span>), QgsPointV2(<span class="hljs-number">0</span>, <span class="hljs-number">1</span>), QgsPointV2(<span class="hljs-number">1</span>, -<span class="hljs-number">1</span>)]
-linestring = QgsLineStringV2()
-linestring.setPoints(points)
-r.setGeometry(linestring)
-
-<span class="hljs-comment"># Remove the rubber band item</span>
-canvas.scene().removeItem(r)
+linestring_polyline = QgsLineStringV2()
+linestring_polyline.setPoints(points)
+r_polyline.setGeometry(linestring_polyline)
 
 <span class="hljs-comment"># To show a polygon (Replace QgsRubberBand if you are using QgsAbstractGeometryV2 geometries)</span>
-r = QgsGeometryRubberBand(canvas, QGis.Polygon)
-points = [QgsPointV2(-<span class="hljs-number">1</span>, -<span class="hljs-number">1</span>), QgsPointV2(<span class="hljs-number">0</span>, <span class="hljs-number">1</span>), QgsPointV2(<span class="hljs-number">1</span>, -<span class="hljs-number">1</span>)]
-linestring = QgsLineStringV2()
-linestring.setPoints(points)
+r_polygon = QgsGeometryRubberBand(canvas, QGis.Polygon)
+points = [QgsPointV2(<span class="hljs-number">3</span>, <span class="hljs-number">5</span>), QgsPointV2(<span class="hljs-number">5</span>, <span class="hljs-number">9</span>), QgsPointV2(<span class="hljs-number">1</span>, <span class="hljs-number">3</span>)]
+linestring_polygon = QgsLineStringV2()
+linestring_polygon.setPoints(points)
 polygon = QgsPolygonV2()
-polygon.setExteriorRing(linestring)
-r.setGeometry(polygon)
+polygon.setExteriorRing(linestring_polygon)
+r_polygon.setGeometry(polygon)
 
 <span class="hljs-comment"># Customize rubber band</span>
-r.setBrushStyle(Qt.SolidPattern)
-r.setFillColor(QColor(<span class="hljs-string">&apos;blue&apos;</span>))
-r.setOutlineWidth(<span class="hljs-number">3</span>)
-r.setOutlineColor(QColor(<span class="hljs-number">255</span>, <span class="hljs-number">0</span>, <span class="hljs-number">255</span>))
+r_polygon.setBrushStyle(Qt.SolidPattern)
+r_polygon.setFillColor(QColor(<span class="hljs-string">&apos;blue&apos;</span>))
+r_polygon.setOutlineWidth(<span class="hljs-number">3</span>)
+r_polygon.setOutlineColor(QColor(<span class="hljs-number">255</span>, <span class="hljs-number">0</span>, <span class="hljs-number">255</span>))
 canvas.refresh()
 
-<span class="hljs-comment"># Remove the rubber band item</span>
-canvas.scene().removeItem(r)
+<span class="hljs-comment"># Remove the point, polyline and polygon QgsGeometryRubberBand band items</span>
+<span class="hljs-comment"># canvas.scene().removeItem(r_point)</span>
+<span class="hljs-comment"># canvas.scene().removeItem(r_polyline)</span>
+<span class="hljs-comment"># canvas.scene().removeItem(r_polygon)</span>
 </code></pre>
 
                     

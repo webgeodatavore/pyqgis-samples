@@ -120,17 +120,17 @@
 * [ ] QgsFieldModel
 * [ ] QgsFieldProxyModel
 * [ ] QgsFieldValidator  # Abstract class, skipped
-* [x] QgsFileDropEdit
-* [x] QgsFileWidget
-* [x] QgsFilterLineEdit
-* [x] QgsFontMarkerSymbolLayerV2Widget
-* [x] QgsFormAnnotationItem
-* [x] QgsGenericProjectionSelector
-* [x] QgsGeometryGeneratorSymbolLayerWidget
-* [x] QgsGeometryRubberBand
-* [x] QgsGlowWidget
-* [x] QgsGradientFillSymbolLayerV2Widget
-* [x] QgsGraduatedHistogramWidget
+* [x] QgsFileDropEdit (standalone only)
+* [x] QgsFileWidget (standalone only)
+* [x] QgsFilterLineEdit (standalone only)
+* [x] QgsFontMarkerSymbolLayerV2Widget (standalone only)
+* [x] QgsFormAnnotationItem (standalone only)
+* [x] QgsGenericProjectionSelector (standalone only)
+* [x] QgsGeometryGeneratorSymbolLayerWidget (standalone only)
+* [x] QgsGeometryRubberBand (standalone only)
+* [x] QgsGlowWidget (standalone only)
+* [x] QgsGradientFillSymbolLayerV2Widget (standalone only)
+* [x] QgsGraduatedHistogramWidget (standalone only)
 * [x] QgsGraduatedSymbolRendererV2Widget
 * [ ] QgsGroupBoxCollapseButton
 * [x] QgsGroupWMSDataDialog

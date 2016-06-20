@@ -53,7 +53,7 @@
         data-chapter-title="QgsFormAnnotationItem"
         data-filepath="gui-group/QgsFormAnnotationItem.md"
         data-basepath=".."
-        data-revision="Mon Jun 20 2016 02:12:47 GMT+0200 (CEST)"
+        data-revision="Tue Jun 21 2016 01:44:41 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2821,7 +2821,8 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsFormAnnotationItem-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsFormAnnotationItem.py" href="../gui/qgis-sample-QgsFormAnnotationItem.py">qgis-sample-QgsFormAnnotationItem.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
@@ -2834,12 +2835,23 @@
 
 layer = iface.activeLayer()
 canvas = iface.mapCanvas()
-directory = os.path.dirname(os.path.abspath(getsourcefile(<span class="hljs-keyword">lambda</span>:<span class="hljs-number">0</span>)))
+directory = os.path.dirname(os.path.abspath(getsourcefile(<span class="hljs-keyword">lambda</span>: <span class="hljs-number">0</span>)))
 form_annotation_item = QgsFormAnnotationItem(canvas, layer)
 form_annotation_item.setMapPosition(QgsPoint(<span class="hljs-number">20</span>, <span class="hljs-number">40</span>))
-form_annotation_item.setDesignerForm(os.path.join(directory, <span class="hljs-string">&apos;../ui/QgsFormAnnotationItemDemoFile.ui&apos;</span>))
+<span class="hljs-comment"># Data matching the form comes from</span>
+<span class="hljs-comment"># http://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-countries/</span>
+<span class="hljs-comment"># Crash on our QGIS version 2.14.3 on Lubuntu 14.04 64 bits. Work with master</span>
+form_annotation_item.setDesignerForm(
+    os.path.join(
+        directory,
+        <span class="hljs-string">&apos;../ui/QgsFormAnnotationItemDemoFile.ui&apos;</span>
+    )
+)
 form_annotation_item.setFrameSize(QSizeF(<span class="hljs-number">136.0</span>, <span class="hljs-number">50.0</span>))
 form_annotation_item.setOffsetFromReferencePoint(QPointF(-<span class="hljs-number">68.0</span>, -<span class="hljs-number">75.0</span>))
+
+<span class="hljs-comment"># Then remove</span>
+<span class="hljs-comment"># canvas.scene().removeItem(form_annotation_item)</span>
 </code></pre>
 
                     
