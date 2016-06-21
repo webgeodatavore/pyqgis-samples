@@ -220,15 +220,15 @@
 * [x] QgsRendererRulePropsDialog
 * [x] QgsRendererV2PropertiesDialog
 * [ ] QgsRendererV2Widget  # Abstract class, skipped
-* [x] QgsRubberBand
+* [x] QgsRubberBand (standalone only)
 * [ ] QgsRuleBasedRendererV2Model
-* [x] QgsRuleBasedRendererV2Widget
-* [ ] QgsSVGFillSymbolLayerWidget (1)
-* [x] QgsScaleComboBox
-* [x] QgsScaleRangeWidget
-* [x] QgsScaleVisibilityDialog
-* [x] QgsScaleWidget
-* [x] QgsSearchQueryBuilder
+* [x] QgsRuleBasedRendererV2Widget (standalone only)
+* [x] QgsSVGFillSymbolLayerWidget (standalone only)
+* [x] QgsScaleComboBox (standalone only)
+* [x] QgsScaleRangeWidget (standalone only)
+* [x] QgsScaleVisibilityDialog (standalone only)
+* [x] QgsScaleWidget (standalone only)
+* [x] QgsSearchQueryBuilder (standalone only)
 * [ ] QgsSearchWidgetWrapper
 * [x] QgsShadowEffectWidget (standalone only)
 * [x] QgsShapeburstFillSymbolLayerV2Widget (standalone only)

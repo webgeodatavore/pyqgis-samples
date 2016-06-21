@@ -6,20 +6,22 @@ from qgis.utils import iface
 
 canvas = iface.mapCanvas()
 # To show a polyline
-r = QgsRubberBand(canvas, False)  # False = not a polygon
+r_polyline = QgsRubberBand(canvas, False)  # False = not a polygon
 points = [QgsPoint(-1, -1), QgsPoint(0, 1), QgsPoint(1, -1)]
-r.setToGeometry(QgsGeometry.fromPolyline(points), None)
+r_polyline.setToGeometry(QgsGeometry.fromPolyline(points), None)
+r_polyline.setWidth(2)
 
 # To show a polygon
-r = QgsRubberBand(canvas, True)  # True = a polygon
-points = [[QgsPoint(-1, -1), QgsPoint(0, 1), QgsPoint(1, -1)]]
-r.setToGeometry(QgsGeometry.fromPolygon(points), None)
+r_polygone = QgsRubberBand(canvas, True)  # True = a polygon
+points = [[QgsPoint(3, 5), QgsPoint(5, 9), QgsPoint(8, 5)]]
+r_polygone.setToGeometry(QgsGeometry.fromPolygon(points), None)
 
 # Customize rubber band
-r.setColor(QColor(0, 0, 255))
-r.setWidth(3)
+r_polygone.setColor(QColor(0, 0, 255))
+r_polygone.setWidth(3)
 
-# Remove the rubber band item
-canvas.scene().removeItem(r)
+# Remove both rubber band items
+# canvas.scene().removeItem(r_polyline)
+# canvas.scene().removeItem(r_polygone)
 
 # TODO: report addPoint method

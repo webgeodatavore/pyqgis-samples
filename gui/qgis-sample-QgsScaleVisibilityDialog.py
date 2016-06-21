@@ -2,9 +2,13 @@
 from qgis.gui import QgsScaleVisibilityDialog
 from qgis.utils import iface
 
+canvas = iface.mapCanvas()
+main_window = iface.mainWindow()
+
 scale_visibility_dialog = QgsScaleVisibilityDialog(
-    iface.mainWindow(),
+    main_window,
     u"My visibility widget",
-    iface.mapCanvas()
+    canvas
 )
+
 scale_visibility_dialog.show()

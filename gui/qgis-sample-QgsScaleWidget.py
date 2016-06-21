@@ -4,7 +4,7 @@ from qgis.gui import QgsScaleWidget
 from qgis.utils import iface
 
 new_dialog = QDialog()
-new_dialog.resize(800, 600)
+new_dialog.resize(150, 50)
 
 scale_widget = QgsScaleWidget(new_dialog)
 

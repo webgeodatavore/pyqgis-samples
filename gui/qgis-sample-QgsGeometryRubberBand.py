@@ -21,7 +21,7 @@ r_polyline.setGeometry(linestring_polyline)
 
 # To show a polygon (Replace QgsRubberBand if you are using QgsAbstractGeometryV2 geometries)
 r_polygon = QgsGeometryRubberBand(canvas, QGis.Polygon)
-points = [QgsPointV2(3, 5), QgsPointV2(5, 9), QgsPointV2(1, 3)]
+points = [QgsPointV2(3, 5), QgsPointV2(5, 9), QgsPointV2(8, 5)]
 linestring_polygon = QgsLineStringV2()
 linestring_polygon.setPoints(points)
 polygon = QgsPolygonV2()
