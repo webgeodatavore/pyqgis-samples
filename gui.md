@@ -131,11 +131,11 @@
 * [x] QgsGlowWidget (standalone only)
 * [x] QgsGradientFillSymbolLayerV2Widget (standalone only)
 * [x] QgsGraduatedHistogramWidget (standalone only)
-* [x] QgsGraduatedSymbolRendererV2Widget
+* [x] QgsGraduatedSymbolRendererV2Widget (standalone only)
 * [ ] QgsGroupBoxCollapseButton
-* [x] QgsGroupWMSDataDialog
-* [x] QgsHeatmapRendererWidget
-* [x] QgsHighlight
+* [x] QgsGroupWMSDataDialog (standalone only)
+* [x] QgsHeatmapRendererWidget (standalone only)
+* [x] QgsHighlight (standalone only)
 * [x] QgsHistogramWidget
 * [x] QgsHtmlAnnotationItem
 * [ ] QgsIFeatureSelectionManager  # Interface class, skipped
@@ -220,21 +220,21 @@
 * [x] QgsRendererRulePropsDialog
 * [x] QgsRendererV2PropertiesDialog
 * [ ] QgsRendererV2Widget  # Abstract class, skipped
-* [x] QgsRubberBand
+* [x] QgsRubberBand (standalone only)
 * [ ] QgsRuleBasedRendererV2Model
-* [x] QgsRuleBasedRendererV2Widget
-* [ ] QgsSVGFillSymbolLayerWidget (1)
-* [x] QgsScaleComboBox
-* [x] QgsScaleRangeWidget
-* [x] QgsScaleVisibilityDialog
-* [x] QgsScaleWidget
-* [x] QgsSearchQueryBuilder
+* [x] QgsRuleBasedRendererV2Widget (standalone only)
+* [x] QgsSVGFillSymbolLayerWidget (standalone only)
+* [x] QgsScaleComboBox (standalone only)
+* [x] QgsScaleRangeWidget (standalone only)
+* [x] QgsScaleVisibilityDialog (standalone only)
+* [x] QgsScaleWidget (standalone only)
+* [x] QgsSearchQueryBuilder (standalone only)
 * [ ] QgsSearchWidgetWrapper
-* [x] QgsShadowEffectWidget
-* [x] QgsShapeburstFillSymbolLayerV2Widget
-* [x] QgsSimpleFillSymbolLayerV2Widget
-* [x] QgsSimpleLineSymbolLayerV2Widget
-* [x] QgsSimpleMarkerSymbolLayerV2Widget
+* [x] QgsShadowEffectWidget (standalone only)
+* [x] QgsShapeburstFillSymbolLayerV2Widget (standalone only)
+* [x] QgsSimpleFillSymbolLayerV2Widget (standalone only)
+* [x] QgsSimpleLineSymbolLayerV2Widget (standalone only)
+* [x] QgsSimpleMarkerSymbolLayerV2Widget (standalone only)
 * [x] QgsSingleBandGrayRendererWidget (standalone only)
 * [x] QgsSingleBandPseudoColorRendererWidget (standalone only)
 * [x] QgsSingleSymbolRendererV2Widget (standalone only)
