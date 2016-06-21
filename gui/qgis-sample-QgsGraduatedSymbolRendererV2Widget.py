@@ -6,17 +6,17 @@ from qgis.utils import iface
 layer = iface.activeLayer()
 canvas = iface.mapCanvas()
 graduated_symbol_renderer_v2_widget = QgsGraduatedSymbolRendererV2Widget(
-    iface.activeLayer(),
+    layer,
     QgsStyleV2.defaultStyle(),
-    iface.activeLayer().rendererV2()
+    layer.rendererV2()
 )
 
-categorized_symbol_renderer_v2_widget.setMapCanvas(canvas)
+graduated_symbol_renderer_v2_widget.setMapCanvas(canvas)
 
 
 def on_widget_changed():
     layer.setRendererV2(
-        categorized_symbol_renderer_v2_widget.renderer()
+        graduated_symbol_renderer_v2_widget.renderer()
     )
     if canvas.isCachingEnabled():
         layer.setCacheImage(None)
@@ -24,5 +24,5 @@ def on_widget_changed():
     else:
         canvas.refresh()
 
-categorized_symbol_renderer_v2_widget.widgetChanged.connect(on_widget_changed)
-categorized_symbol_renderer_v2_widget.show()
+graduated_symbol_renderer_v2_widget.widgetChanged.connect(on_widget_changed)
+graduated_symbol_renderer_v2_widget.show()

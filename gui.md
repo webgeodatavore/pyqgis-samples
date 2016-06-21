@@ -131,11 +131,11 @@
 * [x] QgsGlowWidget (standalone only)
 * [x] QgsGradientFillSymbolLayerV2Widget (standalone only)
 * [x] QgsGraduatedHistogramWidget (standalone only)
-* [x] QgsGraduatedSymbolRendererV2Widget
+* [x] QgsGraduatedSymbolRendererV2Widget (standalone only)
 * [ ] QgsGroupBoxCollapseButton
-* [x] QgsGroupWMSDataDialog
-* [x] QgsHeatmapRendererWidget
-* [x] QgsHighlight
+* [x] QgsGroupWMSDataDialog (standalone only)
+* [x] QgsHeatmapRendererWidget (standalone only)
+* [x] QgsHighlight (standalone only)
 * [x] QgsHistogramWidget
 * [x] QgsHtmlAnnotationItem
 * [ ] QgsIFeatureSelectionManager  # Interface class, skipped
@@ -230,11 +230,11 @@
 * [x] QgsScaleWidget
 * [x] QgsSearchQueryBuilder
 * [ ] QgsSearchWidgetWrapper
-* [x] QgsShadowEffectWidget
-* [x] QgsShapeburstFillSymbolLayerV2Widget
-* [x] QgsSimpleFillSymbolLayerV2Widget
-* [x] QgsSimpleLineSymbolLayerV2Widget
-* [x] QgsSimpleMarkerSymbolLayerV2Widget
+* [x] QgsShadowEffectWidget (standalone only)
+* [x] QgsShapeburstFillSymbolLayerV2Widget (standalone only)
+* [x] QgsSimpleFillSymbolLayerV2Widget (standalone only)
+* [x] QgsSimpleLineSymbolLayerV2Widget (standalone only)
+* [x] QgsSimpleMarkerSymbolLayerV2Widget (standalone only)
 * [x] QgsSingleBandGrayRendererWidget (standalone only)
 * [x] QgsSingleBandPseudoColorRendererWidget (standalone only)
 * [x] QgsSingleSymbolRendererV2Widget (standalone only)
