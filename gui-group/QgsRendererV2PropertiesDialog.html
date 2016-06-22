@@ -53,7 +53,7 @@
         data-chapter-title="QgsRendererV2PropertiesDialog"
         data-filepath="gui-group/QgsRendererV2PropertiesDialog.md"
         data-basepath=".."
-        data-revision="Wed Jun 22 2016 03:02:26 GMT+0200 (CEST)"
+        data-revision="Wed Jun 22 2016 03:18:18 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2836,7 +2836,8 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsRendererV2PropertiesDialog-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsRendererV2PropertiesDialog.py" href="../gui/qgis-sample-QgsRendererV2PropertiesDialog.py">qgis-sample-QgsRendererV2PropertiesDialog.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
@@ -2844,8 +2845,10 @@
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsRendererV2PropertiesDialog
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
+layer = iface.activeLayer()
+
 renderer_v2_properties = QgsRendererV2PropertiesDialog(
-    iface.activeLayer(),
+    layer,
     QgsStyleV2.defaultStyle(),
     <span class="hljs-keyword">True</span>
 )
