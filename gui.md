@@ -136,22 +136,22 @@
 * [x] QgsGroupWMSDataDialog (standalone only)
 * [x] QgsHeatmapRendererWidget (standalone only)
 * [x] QgsHighlight (standalone only)
-* [x] QgsHistogramWidget
-* [x] QgsHtmlAnnotationItem
+* [x] QgsHistogramWidget (standalone only)
+* [x] QgsHtmlAnnotationItem (standalone only)
 * [ ] QgsIFeatureSelectionManager  # Interface class, skipped
 * [ ] QgsIdentifyMenu
-* [x] QgsInvertedPolygonRendererWidget
-* [x] QgsLUDialog
-* [x] QgsLayerPropertiesWidget
+* [x] QgsInvertedPolygonRendererWidget (standalone only)
+* [x] QgsLUDialog (standalone only)
+* [x] QgsLayerPropertiesWidget (standalone only)
 * [ ] QgsLayerTreeMapCanvasBridge
-* [x] QgsLayerTreeView
+* [x] QgsLayerTreeView (standalone only)
 * [ ] QgsLayerTreeViewDefaultActions
 * [ ] QgsLayerTreeViewMenuProvider
 * [ ] QgsLegendFilterButton
 * [ ] QgsLegendInterface
-* [x] QgsLinePatternFillSymbolLayerWidget
+* [x] QgsLinePatternFillSymbolLayerWidget (standalone only)
 * [ ] QgsLongLongValidator
-* [x] QgsManageConnectionsDialog
+* [x] QgsManageConnectionsDialog (standalone only)
 * [x] QgsMapCanvas (capture)
 * [ ] QgsMapCanvasItem  # Create a new class to show inheritance + try out the existing child class (1)
 * [ ] QgsMapCanvasLayer

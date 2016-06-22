@@ -53,7 +53,7 @@
         data-chapter-title="QgsHtmlAnnotationItem"
         data-filepath="gui-group/QgsHtmlAnnotationItem.md"
         data-basepath=".."
-        data-revision="Wed Jun 22 2016 03:18:18 GMT+0200 (CEST)"
+        data-revision="Thu Jun 23 2016 00:58:16 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2836,7 +2836,8 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsHtmlAnnotationItem-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsHtmlAnnotationItem.py" href="../gui/qgis-sample-QgsHtmlAnnotationItem.py">qgis-sample-QgsHtmlAnnotationItem.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
@@ -2846,23 +2847,50 @@
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsHtmlAnnotationItem
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
-htmlAnnotationItem = QgsHtmlAnnotationItem(
-    iface.mapCanvas(),
-    iface.activeLayer()
+layer = iface.activeLayer()
+canvas = iface.mapCanvas()
+html_annotation_item = QgsHtmlAnnotationItem(
+    canvas,
+    layer
 )
 X, Y = float(<span class="hljs-number">3</span>), float(<span class="hljs-number">45</span>)
 point = QgsPoint(X, Y)
-htmlAnnotationItem.setMapPosition(point)
-htmlAnnotationItem.setFrameSize(QSizeF(<span class="hljs-number">300</span>, <span class="hljs-number">200</span>))
-htmlAnnotationItem.setFrameColor(QColor(<span class="hljs-number">0</span>, <span class="hljs-number">255</span>, <span class="hljs-number">0</span>))
-htmlAnnotationItem.setFrameBackgroundColor(QColor(<span class="hljs-number">128</span>, <span class="hljs-number">128</span>, <span class="hljs-number">128</span>))
-html_url = <span class="hljs-string">&quot;/tmp/index.html&quot;</span>
+html_annotation_item.setMapPosition(point)
+html_annotation_item.setFrameSize(QSizeF(<span class="hljs-number">300</span>, <span class="hljs-number">200</span>))
+html_annotation_item.setFrameColor(QColor(<span class="hljs-number">0</span>, <span class="hljs-number">255</span>, <span class="hljs-number">0</span>))
+html_annotation_item.setFrameBackgroundColor(QColor(<span class="hljs-number">128</span>, <span class="hljs-number">128</span>, <span class="hljs-number">128</span>))
 
-htmlAnnotationItem.setHTMLPage(html_url)
-iface.mapCanvas().refresh()
+html_content = <span class="hljs-string">&quot;&quot;&quot;&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;title&gt;&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+ ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,
+ tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+ Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet
+ est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
+ commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt
+ condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec
+ non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id
+ cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.
+ Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
+ facilisis luctus, metus
+&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&quot;&quot;&quot;</span>
+html_url = <span class="hljs-string">&quot;/tmp/index.html&quot;</span>  <span class="hljs-comment"># Change the path on Windows</span>
+
+<span class="hljs-keyword">with</span> open(html_url, <span class="hljs-string">&apos;wb&apos;</span>) <span class="hljs-keyword">as</span> f:
+    f.write(html_content)
+
+html_annotation_item.setHTMLPage(html_url)
+canvas.refresh()
 
 <span class="hljs-comment"># You can remove the component with:</span>
-<span class="hljs-comment"># iface.mapCanvas().scene().removeItem(htmlAnnotationItem)</span>
+<span class="hljs-comment"># iface.mapCanvas().scene().removeItem(html_annotation_item)</span>
 </code></pre>
 
                     

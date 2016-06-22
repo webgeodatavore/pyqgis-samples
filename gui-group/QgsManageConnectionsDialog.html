@@ -53,7 +53,7 @@
         data-chapter-title="QgsManageConnectionsDialog"
         data-filepath="gui-group/QgsManageConnectionsDialog.md"
         data-basepath=".."
-        data-revision="Wed Jun 22 2016 03:18:18 GMT+0200 (CEST)"
+        data-revision="Thu Jun 23 2016 00:58:16 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2836,31 +2836,35 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsManageConnectionsDialog-export-standalone.png" alt=""></p>
+<p><img src="../images/QgsManageConnectionsDialog-import-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsManageConnectionsDialog.py" href="../gui/qgis-sample-QgsManageConnectionsDialog.py">qgis-sample-QgsManageConnectionsDialog.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsManageConnectionsDialog
 
-manage_connections_dialog = QgsManageConnectionsDialog(
-    mode=QgsManageConnectionsDialog.Export,  <span class="hljs-comment"># Can be Import or Export</span>
-    type=QgsManageConnectionsDialog.PostGIS,  <span class="hljs-comment"># Could be WMS, PostGIS, WFS, MSSQL, DB2, WCS or Oracle </span>
-    fileName=<span class="hljs-string">&quot;export.xml&quot;</span>
-)
-manage_connections_dialog.show()
+file_path = <span class="hljs-string">&quot;/tmp/export.xml&quot;</span>
 
-manage_connections_dialog = QgsManageConnectionsDialog(
+manage_connections_dialog_export = QgsManageConnectionsDialog(
+    mode=QgsManageConnectionsDialog.Export,  <span class="hljs-comment"># Can be Import or Export</span>
+    type=QgsManageConnectionsDialog.PostGIS,  <span class="hljs-comment"># Could be WMS, PostGIS, WFS, MSSQL, DB2, WCS or Oracle</span>
+    fileName=file_path
+)
+manage_connections_dialog_export.show()
+
+manage_connections_dialog_import = QgsManageConnectionsDialog(
     mode=QgsManageConnectionsDialog.Import,
     type=QgsManageConnectionsDialog.PostGIS,
-    fileName=<span class="hljs-string">&quot;export.xml&quot;</span>
+    fileName=file_path
 )
-manage_connections_dialog.show()
+manage_connections_dialog_import.show()
 
 
-manage_connections_dialog.selectAll()
-manage_connections_dialog.clearSelection()
-manage_connections_dialog.doExportImport()
-manage_connections_dialog.selectionChanged()  <span class="hljs-comment"># Not sure about this slot purpose</span>
+manage_connections_dialog_import.selectAll()
+manage_connections_dialog_import.clearSelection()
+manage_connections_dialog_import.doExportImport()
+manage_connections_dialog_import.selectionChanged()  <span class="hljs-comment"># Not sure about this slot purpose</span>
 </code></pre>
 
                     

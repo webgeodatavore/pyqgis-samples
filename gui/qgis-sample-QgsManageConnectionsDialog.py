@@ -1,22 +1,24 @@
 # coding: utf-8
 from qgis.gui import QgsManageConnectionsDialog
 
-manage_connections_dialog = QgsManageConnectionsDialog(
-    mode=QgsManageConnectionsDialog.Export,  # Can be Import or Export
-    type=QgsManageConnectionsDialog.PostGIS,  # Could be WMS, PostGIS, WFS, MSSQL, DB2, WCS or Oracle 
-    fileName="export.xml"
-)
-manage_connections_dialog.show()
+file_path = "/tmp/export.xml"
 
-manage_connections_dialog = QgsManageConnectionsDialog(
+manage_connections_dialog_export = QgsManageConnectionsDialog(
+    mode=QgsManageConnectionsDialog.Export,  # Can be Import or Export
+    type=QgsManageConnectionsDialog.PostGIS,  # Could be WMS, PostGIS, WFS, MSSQL, DB2, WCS or Oracle
+    fileName=file_path
+)
+manage_connections_dialog_export.show()
+
+manage_connections_dialog_import = QgsManageConnectionsDialog(
     mode=QgsManageConnectionsDialog.Import,
     type=QgsManageConnectionsDialog.PostGIS,
-    fileName="export.xml"
+    fileName=file_path
 )
-manage_connections_dialog.show()
+manage_connections_dialog_import.show()
 
 
-manage_connections_dialog.selectAll()
-manage_connections_dialog.clearSelection()
-manage_connections_dialog.doExportImport()
-manage_connections_dialog.selectionChanged()  # Not sure about this slot purpose
+manage_connections_dialog_import.selectAll()
+manage_connections_dialog_import.clearSelection()
+manage_connections_dialog_import.doExportImport()
+manage_connections_dialog_import.selectionChanged()  # Not sure about this slot purpose
