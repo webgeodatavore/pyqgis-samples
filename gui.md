@@ -209,7 +209,7 @@
 * [ ] QgsRasterFillSymbolLayerWidget (1)
 * [ ] QgsRasterFormatSaveOptionsWidget (1)
 * [ ] QgsRasterHistogramWidget (1)
-* [x] QgsRasterLayerSaveAsDialog
+* [x] QgsRasterLayerSaveAsDialog (standalone only)
 * [ ] QgsRasterMinMaxWidget (1)
 * [ ] QgsRasterPyramidsOptionsWidget (1)
 * [ ] QgsRasterRendererWidget (1)
@@ -217,8 +217,8 @@
 * [ ] QgsRelationReferenceWidget (1)
 * [ ] QgsRelationReferenceWidgetWrapper
 * [ ] QgsRelationWidgetWrapper
-* [x] QgsRendererRulePropsDialog
-* [x] QgsRendererV2PropertiesDialog
+* [x] QgsRendererRulePropsDialog (standalone only)
+* [x] QgsRendererV2PropertiesDialog (standalone only)
 * [ ] QgsRendererV2Widget  # Abstract class, skipped
 * [x] QgsRubberBand (standalone only)
 * [ ] QgsRuleBasedRendererV2Model

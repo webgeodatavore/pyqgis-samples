@@ -3,8 +3,10 @@ from qgis.core import QgsStyleV2
 from qgis.gui import QgsRendererV2PropertiesDialog
 from qgis.utils import iface
 
+layer = iface.activeLayer()
+
 renderer_v2_properties = QgsRendererV2PropertiesDialog(
-    iface.activeLayer(),
+    layer,
     QgsStyleV2.defaultStyle(),
     True
 )
