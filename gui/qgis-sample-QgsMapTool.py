@@ -20,9 +20,10 @@ class SendPointToolCoordinates(QgsMapTool):
 
         print(point.x(), point.y())
 
+layer, canvas = iface.activeLayer(), iface.mapCanvas()
 
 send_point_tool_coordinates = SendPointToolCoordinates(
-    iface.mapCanvas(),
-    iface.activeLayer()
+    canvas,
+    layer
 )
-iface.mapCanvas().setMapTool(send_point_tool_coordinates)
+canvas.setMapTool(send_point_tool_coordinates)
