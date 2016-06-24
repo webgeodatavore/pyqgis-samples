@@ -53,7 +53,7 @@
         data-chapter-title="QgsMapTip"
         data-filepath="gui-group/QgsMapTip.md"
         data-basepath=".."
-        data-revision="Thu Jun 23 2016 00:58:16 GMT+0200 (CEST)"
+        data-revision="Fri Jun 24 2016 04:09:51 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2836,7 +2836,8 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsMapTip-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsMapTip.py" href="../gui/qgis-sample-QgsMapTip.py">qgis-sample-QgsMapTip.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
@@ -2861,7 +2862,7 @@
     <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">mapTipXYChanged</span><span class="hljs-params">(self, p)</span>:</span>
         <span class="hljs-string">&quot;&quot;&quot; SLOT. Initialize the Timer to show MapTips on the map &quot;&quot;&quot;</span>
         <span class="hljs-keyword">if</span> self.canvas.underMouse():  <span class="hljs-comment"># Only if mouse is over the map</span>
-            <span class="hljs-comment"># Here you could check if your custom MapTips button is active or sth</span>
+            <span class="hljs-comment"># Here you could check if your custom MapTips button is active</span>
             self.lastMapPosition = QgsPoint(p.x(), p.y())
             self.map_tip.clear(self.canvas)
             self.timer_map_tips.start(<span class="hljs-number">750</span>)  <span class="hljs-comment"># time in milliseconds</span>
@@ -2871,7 +2872,7 @@
         self.timer_map_tips.stop()
 
         <span class="hljs-keyword">if</span> self.canvas.underMouse():
-            <span class="hljs-comment"># Here you could check if your custom MapTips button is active or sth</span>
+            <span class="hljs-comment"># Here you could check if your custom MapTips button is active</span>
             point_qgs = self.lastMapPosition
             point_qt = self.canvas.mouseLastXY()
             <span class="hljs-keyword">if</span> self.layer:
@@ -2885,9 +2886,11 @@
                 <span class="hljs-keyword">print</span> <span class="hljs-string">&quot;You should set a layer&quot;</span>
 
 
-my_tool_tip = ToolTip(iface.mapCanvas())
+canvas = iface.mapCanvas()
+layer = iface.activeLayer()
+my_tool_tip = ToolTip()
 my_tool_tip.createMapTips()
-my_tool_tip.layer = iface.activeLayer()
+my_tool_tip.layer = layer
 my_tool_tip.layer.setDisplayField(<span class="hljs-string">&apos;NAME_LONG&apos;</span>)
 my_tool_tip.layer.setDisplayField(<span class="hljs-string">&apos;NAME&apos;</span>)
 

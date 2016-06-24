@@ -53,7 +53,7 @@
         data-chapter-title="QgsMapOverviewCanvas"
         data-filepath="gui-group/QgsMapOverviewCanvas.md"
         data-basepath=".."
-        data-revision="Thu Jun 23 2016 00:58:16 GMT+0200 (CEST)"
+        data-revision="Fri Jun 24 2016 04:09:51 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2836,17 +2836,19 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsMapOverviewCanvas-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsMapOverviewCanvas.py" href="../gui/qgis-sample-QgsMapOverviewCanvas.py">qgis-sample-QgsMapOverviewCanvas.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
 <span class="hljs-keyword">from</span> PyQt4.QtCore <span class="hljs-keyword">import</span> Qt, QObject
-<span class="hljs-keyword">from</span> PyQt4.QtGui <span class="hljs-keyword">import</span> QColor, QDialog, QVBoxLayout, QDockWidget
+<span class="hljs-keyword">from</span> PyQt4.QtGui <span class="hljs-keyword">import</span> QColor, QVBoxLayout, QDockWidget
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsMapOverviewCanvas
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
-new_dialog = QDialog()
-new_dialog.resize(<span class="hljs-number">800</span>, <span class="hljs-number">600</span>)
+layer = iface.activeLayer()
+canvas = iface.mapCanvas()
+main_window = iface.mainWindow()
 
 new_dock_widget = QDockWidget(<span class="hljs-string">u&quot;My doc widget&quot;</span>)
 
@@ -2854,10 +2856,10 @@ layout = QVBoxLayout()
 
 map_canvas_overview = QgsMapOverviewCanvas(
     new_dock_widget,
-    iface.mapCanvas()
+    canvas
 )
 
-layerset = [iface.activeLayer().id()]
+layerset = [layer.id()]
 map_canvas_overview.setLayerSet(layerset)
 map_canvas_overview.setBackgroundColor(QColor(<span class="hljs-number">255</span>, <span class="hljs-number">127</span>, <span class="hljs-number">0</span>))
 map_canvas_overview.enableAntiAliasing(<span class="hljs-keyword">True</span>)
@@ -2868,7 +2870,7 @@ layout.addWidget(map_canvas_overview)
 
 new_dock_widget.setLayout(layout)
 
-iface.mainWindow().addDockWidget(Qt.RightDockWidgetArea, new_dock_widget)
+main_window.addDockWidget(Qt.RightDockWidgetArea, new_dock_widget)
 new_dock_widget.show()
 
 map_canvas_overview.refresh()  <span class="hljs-comment"># Make the background color disappear?</span>
@@ -2877,7 +2879,7 @@ map_canvas_overview.refresh()  <span class="hljs-comment"># Make the background 
 layout.setContentsMargins(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>)
 
 <span class="hljs-comment"># To clean unuseful reference widgets</span>
-[iface.mainWindow().removeDockWidget(i) <span class="hljs-keyword">for</span> i <span class="hljs-keyword">in</span> QObject.findChildren(iface.mainWindow(), QDockWidget) <span class="hljs-keyword">if</span> i.windowTitle() == <span class="hljs-string">u&apos;My doc widget&apos;</span>]
+<span class="hljs-comment"># [main_window.removeDockWidget(i) for i in QObject.findChildren(main_window, QDockWidget) if i.windowTitle() == u&apos;My doc widget&apos;]</span>
 </code></pre>
 
                     

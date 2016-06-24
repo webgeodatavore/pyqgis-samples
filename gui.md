@@ -157,50 +157,50 @@
 * [ ] QgsMapCanvasLayer
 * [ ] QgsMapCanvasMap
 * [ ] QgsMapCanvasSnapper
-* [x] QgsMapCanvasSnappingUtils
+* [x] QgsMapCanvasSnappingUtils (illustration not required)
 * [ ] QgsMapCanvasTracer
 * [ ] QgsMapLayerAction (2)
 * [ ] QgsMapLayerActionRegistry (2)
-* [x] QgsMapLayerComboBox
+* [x] QgsMapLayerComboBox (standalone only)
 * [ ] QgsMapLayerModel
 * [ ] QgsMapLayerProxyModel
 * [ ] QgsMapMouseEvent
-* [x] QgsMapOverviewCanvas
-* [x] QgsMapTip
-* [x] QgsMapTool
+* [x] QgsMapOverviewCanvas (standalone only)
+* [x] QgsMapTip (standalone only)
+* [x] QgsMapTool (standalone only)
 * [ ] QgsMapToolAdvancedDigitizing
 * [ ] QgsMapToolCapture
 * [ ] QgsMapToolEdit
 * [ ] QgsMapToolEmitPoint
 * [ ] QgsMapToolIdentify
 * [ ] QgsMapToolIdentifyFeature
-* [x] QgsMapToolPan
-* [x] QgsMapToolZoom
-* [x] QgsMapUnitScaleDialog
-* [x] QgsMarkerLineSymbolLayerV2Widget
-* [x] QgsMessageBar
+* [x] QgsMapToolPan (standalone only)
+* [x] QgsMapToolZoom (standalone only)
+* [x] QgsMapUnitScaleDialog (standalone only)
+* [x] QgsMarkerLineSymbolLayerV2Widget (standalone only)
+* [x] QgsMessageBar (standalone only)
 * [ ] QgsMessageBarItem
 * [ ] QgsMessageLogViewer
 * [ ] QgsMessageViewer
-* [x] QgsMultiBandColorRendererWidget
+* [x] QgsMultiBandColorRendererWidget (standalone only)
 * [x] QgsNewHttpConnection (capture)
-* [x] QgsNewMemoryLayerDialog
-* [x] QgsNewNameDialog  # Used in "Add preset..."
-* [x] QgsNewVectorLayerDialog
+* [x] QgsNewMemoryLayerDialog (standalone only)
+* [x] QgsNewNameDialog (standalone only)
+* [x] QgsNewVectorLayerDialog (standalone only)
 * [ ] QgsNumericSortTreeWidgetItem
 * [ ] QgsOWSSourceSelect (2)
 * [ ] QgsOptionsDialogBase
-* [x] QgsOrderByDialog
-* [x] QgsPaintEffectPropertiesWidget
+* [x] QgsOrderByDialog (standalone only)
+* [x] QgsPaintEffectPropertiesWidget (standalone only)
 * [ ] QgsPaintEffectWidget  # Base class, skipped
-* [x] QgsPalettedRendererWidget
+* [x] QgsPalettedRendererWidget (standalone only)
 * [x] QgsPenCapStyleComboBox
 * [x] QgsPenJoinStyleComboBox
 * [x] QgsPenStyleComboBox
 * [ ] QgsPixmapLabel
 * [ ] QgsPluginManagerInterface
 * [x] QgsPointDisplacementRendererWidget
-* [x] QgsPointPatternFillSymbolLayerWidget
+* [x] QgsPointPattern   FillSymbolLayerWidget
 * [ ] QgsPreviewEffect
 * [ ] QgsProjectBadLayerGuiHandler
 * [x] QgsProjectionSelectionWidget

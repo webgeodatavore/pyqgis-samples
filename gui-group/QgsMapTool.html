@@ -53,7 +53,7 @@
         data-chapter-title="QgsMapTool"
         data-filepath="gui-group/QgsMapTool.md"
         data-basepath=".."
-        data-revision="Thu Jun 23 2016 00:58:16 GMT+0200 (CEST)"
+        data-revision="Fri Jun 24 2016 04:09:51 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2836,7 +2836,8 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsMapTool-standalone.gif"></p>
+<blockquote>
 <p><a id="qgis-sample-QgsMapTool.py" href="../gui/qgis-sample-QgsMapTool.py">qgis-sample-QgsMapTool.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
@@ -2861,12 +2862,13 @@
 
         print(point.x(), point.y())
 
+layer, canvas = iface.activeLayer(), iface.mapCanvas()
 
 send_point_tool_coordinates = SendPointToolCoordinates(
-    iface.mapCanvas(),
-    iface.activeLayer()
+    canvas,
+    layer
 )
-iface.mapCanvas().setMapTool(send_point_tool_coordinates)
+canvas.setMapTool(send_point_tool_coordinates)
 </code></pre>
 
                     

@@ -53,7 +53,7 @@
         data-chapter-title="QgsOrderByDialog"
         data-filepath="gui-group/QgsOrderByDialog.md"
         data-basepath=".."
-        data-revision="Thu Jun 23 2016 00:58:16 GMT+0200 (CEST)"
+        data-revision="Fri Jun 24 2016 04:09:51 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2836,19 +2836,19 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsOrderByDialog-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsOrderByDialog.py" href="../gui/qgis-sample-QgsOrderByDialog.py">qgis-sample-QgsOrderByDialog.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsOrderByDialog
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
+layer = iface.activeLayer()
 
-order_by_dialog = QgsOrderByDialog(iface.activeLayer())
+order_by_dialog = QgsOrderByDialog(layer)
 
-order_by_dialog.show()
-
-order_by = iface.activeLayer().rendererV2().orderBy()
+order_by = layer.rendererV2().orderBy()
 clauses = order_by.list()  <span class="hljs-comment"># List of OrderByClause</span>
 
 <span class="hljs-keyword">for</span> clause <span class="hljs-keyword">in</span> clauses:
@@ -2856,6 +2856,10 @@ clauses = order_by.list()  <span class="hljs-comment"># List of OrderByClause</s
     print(<span class="hljs-string">&apos;Ascending?: &apos;</span> + str(clause.ascending()))  <span class="hljs-comment"># Change value with setAscending</span>
     print(<span class="hljs-string">&apos;nulls first? &apos;</span> + str(clause.nullsFirst()))  <span class="hljs-comment"># Change value with setNullsFirst</span>
     print(<span class="hljs-string">&apos;Dump: &apos;</span> + clause.dump())
+
+order_by_dialog.setOrderBy(order_by)
+
+order_by_dialog.show()
 </code></pre>
 
                     

@@ -53,7 +53,7 @@
         data-chapter-title="QgsNewMemoryLayerDialog"
         data-filepath="gui-group/QgsNewMemoryLayerDialog.md"
         data-basepath=".."
-        data-revision="Thu Jun 23 2016 00:58:16 GMT+0200 (CEST)"
+        data-revision="Fri Jun 24 2016 04:09:51 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2836,14 +2836,15 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsNewMemoryLayerDialog-standalone.png" alt=""></p>
+<blockquote>
 <p><a id="qgis-sample-QgsNewMemoryLayerDialog.py" href="../gui/qgis-sample-QgsNewMemoryLayerDialog.py">qgis-sample-QgsNewMemoryLayerDialog.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
-<span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsNewMemoryLayerDialog
 
-new_memory_layer_dialog = QgsNewMemoryLayerDialog(iface.mainWindow())
+new_memory_layer_dialog = QgsNewMemoryLayerDialog()
+
 new_memory_layer_dialog.show()
 </code></pre>
 

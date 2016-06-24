@@ -53,7 +53,7 @@
         data-chapter-title="QgsFieldComboBox"
         data-filepath="gui-group/QgsFieldComboBox.md"
         data-basepath=".."
-        data-revision="Thu Jun 23 2016 00:58:16 GMT+0200 (CEST)"
+        data-revision="Fri Jun 24 2016 04:09:51 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2842,7 +2842,8 @@
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
 <span class="hljs-keyword">from</span> PyQt4.QtGui <span class="hljs-keyword">import</span> QDialog, QFormLayout
-<span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsFieldComboBox, QgsMapLayerComboBox
+<span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> (QgsFieldComboBox, QgsMapLayerComboBox,
+                      QgsMapLayerProxyModel)
 
 <span class="hljs-comment"># Create dialog</span>
 new_dialog = QDialog()
@@ -2850,6 +2851,7 @@ new_dialog = QDialog()
 <span class="hljs-comment"># Add combobox for layer and field</span>
 map_layer_combo_box = QgsMapLayerComboBox()
 map_layer_combo_box.setCurrentIndex(-<span class="hljs-number">1</span>)
+map_layer_combo_box.setFilters(QgsMapLayerProxyModel.VectorLayer)
 field_combo_box = QgsFieldComboBox()
 
 <span class="hljs-comment"># Create a form layout and add the two combobox</span>

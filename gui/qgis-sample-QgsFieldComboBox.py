@@ -1,6 +1,7 @@
 # coding: utf-8
 from PyQt4.QtGui import QDialog, QFormLayout
-from qgis.gui import QgsFieldComboBox, QgsMapLayerComboBox
+from qgis.gui import (QgsFieldComboBox, QgsMapLayerComboBox,
+                      QgsMapLayerProxyModel)
 
 # Create dialog
 new_dialog = QDialog()
@@ -8,6 +9,7 @@ new_dialog = QDialog()
 # Add combobox for layer and field
 map_layer_combo_box = QgsMapLayerComboBox()
 map_layer_combo_box.setCurrentIndex(-1)
+map_layer_combo_box.setFilters(QgsMapLayerProxyModel.VectorLayer)
 field_combo_box = QgsFieldComboBox()
 
 # Create a form layout and add the two combobox

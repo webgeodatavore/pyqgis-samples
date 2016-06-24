@@ -53,7 +53,7 @@
         data-chapter-title="QgsMapToolZoom"
         data-filepath="gui-group/QgsMapToolZoom.md"
         data-basepath=".."
-        data-revision="Thu Jun 23 2016 00:58:16 GMT+0200 (CEST)"
+        data-revision="Fri Jun 24 2016 04:09:51 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2836,21 +2836,23 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsMapToolZoom-in-qgis.gif"></p>
+<blockquote>
 <p><a id="qgis-sample-QgsMapToolZoom.py" href="../gui/qgis-sample-QgsMapToolZoom.py">qgis-sample-QgsMapToolZoom.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsMapToolZoom
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
-map_tool_zoom_in = QgsMapToolZoom(iface.mapCanvas(), <span class="hljs-keyword">False</span>)  <span class="hljs-comment"># To zoom in</span>
-map_tool_zoom_out = QgsMapToolZoom(iface.mapCanvas(), <span class="hljs-keyword">True</span>)  <span class="hljs-comment"># To zoom out</span>
+canvas = iface.mapCanvas()
+map_tool_zoom_in = QgsMapToolZoom(canvas, <span class="hljs-keyword">False</span>)  <span class="hljs-comment"># To zoom in</span>
+map_tool_zoom_out = QgsMapToolZoom(canvas, <span class="hljs-keyword">True</span>)  <span class="hljs-comment"># To zoom out</span>
 
 <span class="hljs-comment"># Change tool to zoom in</span>
-iface.mapCanvas().setMapTool(map_tool_zoom_in)
+canvas.setMapTool(map_tool_zoom_in)
 
 <span class="hljs-comment"># Change tool again to zoom out</span>
-iface.mapCanvas().setMapTool(map_tool_zoom_out)
+canvas.setMapTool(map_tool_zoom_out)
 
 <span class="hljs-comment"># Reuse the existing QgsMapToolZoom zoomout instead of creating another one</span>
 iface.actionZoomOut().trigger()

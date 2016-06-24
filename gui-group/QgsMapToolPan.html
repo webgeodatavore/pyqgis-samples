@@ -53,7 +53,7 @@
         data-chapter-title="QgsMapToolPan"
         data-filepath="gui-group/QgsMapToolPan.md"
         data-basepath=".."
-        data-revision="Thu Jun 23 2016 00:58:16 GMT+0200 (CEST)"
+        data-revision="Fri Jun 24 2016 04:09:51 GMT+0200 (CEST)"
         data-innerlanguage="">
     
 
@@ -2836,16 +2836,18 @@
                 
                     <section class="normal" id="section-">
                     
-                        <blockquote>
+                        <p><img src="../images/QgsMapToolPan-standalone.gif"></p>
+<blockquote>
 <p><a id="qgis-sample-QgsMapToolPan.py" href="../gui/qgis-sample-QgsMapToolPan.py">qgis-sample-QgsMapToolPan.py</a></p>
 </blockquote>
 <pre><code class="lang-python"><span class="hljs-comment"># coding: utf-8</span>
 <span class="hljs-keyword">from</span> qgis.gui <span class="hljs-keyword">import</span> QgsMapToolPan
 <span class="hljs-keyword">from</span> qgis.utils <span class="hljs-keyword">import</span> iface
 
-map_tool_pan = QgsMapToolPan(iface.mapCanvas())
+canvas = iface.mapCanvas()
+map_tool_pan = QgsMapToolPan(canvas)
 
-iface.mapCanvas().setMapTool(map_tool_pan)
+canvas.setMapTool(map_tool_pan)
 
 <span class="hljs-comment"># Reuse the existing QgsMapToolPan instead of creating another one</span>
 iface.actionPan().trigger()
