@@ -194,18 +194,18 @@
 * [x] QgsPaintEffectPropertiesWidget (standalone only)
 * [ ] QgsPaintEffectWidget  # Base class, skipped
 * [x] QgsPalettedRendererWidget (standalone only)
-* [x] QgsPenCapStyleComboBox
-* [x] QgsPenJoinStyleComboBox
-* [x] QgsPenStyleComboBox
+* [x] QgsPenCapStyleComboBox (standalone only)
+* [x] QgsPenJoinStyleComboBox (standalone only)
+* [x] QgsPenStyleComboBox (standalone only)
 * [ ] QgsPixmapLabel
 * [ ] QgsPluginManagerInterface
-* [x] QgsPointDisplacementRendererWidget
-* [x] QgsPointPattern   FillSymbolLayerWidget
+* [x] QgsPointDisplacementRendererWidget (standalone only)
+* [x] QgsPointPatternFillSymbolLayerWidget (standalone only)
 * [ ] QgsPreviewEffect
 * [ ] QgsProjectBadLayerGuiHandler
-* [x] QgsProjectionSelectionWidget
-* [x] QgsProjectionSelector
-* [x] QgsQueryBuilder
+* [x] QgsProjectionSelectionWidget (standalone only)
+* [x] QgsProjectionSelector(standalone only)
+* [x] QgsQueryBuilder(standalone only)
 * [ ] QgsRasterFillSymbolLayerWidget (1)
 * [ ] QgsRasterFormatSaveOptionsWidget (1)
 * [ ] QgsRasterHistogramWidget (1)
