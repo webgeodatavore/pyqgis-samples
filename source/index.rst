@@ -10,6 +10,8 @@ Welcome to PyQGIS samples's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   gui-group
+   
 
 
 Indices and tables

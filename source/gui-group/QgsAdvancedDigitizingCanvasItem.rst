@@ -1,0 +1,4 @@
+QgsAdvancedDigitizingCanvasItem
+-------------------------------
+
+TODO

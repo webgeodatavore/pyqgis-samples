@@ -1,0 +1,7 @@
+QgsAttributeTableView
+---------------------
+
+.. image:: _static/images/QgsAttributeTableView-standalone.png
+
+.. literalinclude:: _static/samples/qgis-sample-QgsAttributeTableView.py
+   :language: python

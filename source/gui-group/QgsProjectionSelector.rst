@@ -1,0 +1,7 @@
+QgsProjectionSelector
+---------------------
+
+.. image:: _static/images/QgsProjectionSelector-standalone.png
+
+.. literalinclude:: _static/samples/qgis-sample-QgsProjectionSelector.py
+   :language: python

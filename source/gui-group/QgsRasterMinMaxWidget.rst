@@ -1,0 +1,5 @@
+QgsRasterMinMaxWidget
+---------------------
+
+.. literalinclude:: _static/samples/qgis-sample-QgsRasterMinMaxWidget.py
+   :language: python

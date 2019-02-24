@@ -1,0 +1,7 @@
+QgsSearchQueryBuilder
+---------------------
+
+.. image:: _static/images/QgsSearchQueryBuilder-standalone.png
+
+.. literalinclude:: _static/samples/qgis-sample-QgsSearchQueryBuilder.py
+   :language: python

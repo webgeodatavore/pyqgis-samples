@@ -1,0 +1,7 @@
+QgsBrushStyleComboBox
+---------------------
+
+.. image:: _static/images/QgsBrushStyleComboBox-standalone.png
+
+.. literalinclude:: _static/samples/qgis-sample-QgsBrushStyleComboBox.py
+   :language: python

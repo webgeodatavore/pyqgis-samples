@@ -1,0 +1,5 @@
+QgsMapLayerProxyModel
+---------------------
+
+.. literalinclude:: _static/samples/qgis-sample-QgsMapLayerProxyModel.py
+   :language: python
