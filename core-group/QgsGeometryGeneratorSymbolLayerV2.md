@@ -1,1 +1,0 @@
-# QgsGeometryGeneratorSymbolLayerV2

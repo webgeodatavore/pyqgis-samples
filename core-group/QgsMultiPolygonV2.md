@@ -1,1 +1,0 @@
-# QgsMultiPolygonV2

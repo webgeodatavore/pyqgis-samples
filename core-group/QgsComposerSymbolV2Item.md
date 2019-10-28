@@ -1,1 +1,0 @@
-# QgsComposerSymbolV2Item

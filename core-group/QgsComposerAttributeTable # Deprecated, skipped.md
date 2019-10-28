@@ -1,1 +1,0 @@
-# QgsComposerAttributeTable # Deprecated, skipped

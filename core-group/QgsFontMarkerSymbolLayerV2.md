@@ -1,1 +1,0 @@
-# QgsFontMarkerSymbolLayerV2

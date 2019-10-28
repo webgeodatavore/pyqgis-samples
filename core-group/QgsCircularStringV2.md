@@ -1,1 +1,0 @@
-# QgsCircularStringV2

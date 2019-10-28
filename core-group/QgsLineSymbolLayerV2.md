@@ -1,1 +1,0 @@
-# QgsLineSymbolLayerV2

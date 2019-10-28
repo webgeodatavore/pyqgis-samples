@@ -1,1 +1,0 @@
-# QgsMultiCurveV2

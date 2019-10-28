@@ -1,1 +1,0 @@
-# QgsSymbolV2LevelItem

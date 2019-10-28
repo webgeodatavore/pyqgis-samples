@@ -1,1 +1,0 @@
-# QgsSymbologyV2Conversion

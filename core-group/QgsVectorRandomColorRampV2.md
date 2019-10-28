@@ -1,1 +1,0 @@
-# QgsVectorRandomColorRampV2

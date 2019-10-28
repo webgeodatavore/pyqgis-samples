@@ -1,1 +1,0 @@
-# QgsAbstractGeometryV2

@@ -1,1 +1,0 @@
-# QgsMultiPointV2

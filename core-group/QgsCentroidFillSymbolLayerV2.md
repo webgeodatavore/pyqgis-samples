@@ -1,1 +1,0 @@
-# QgsCentroidFillSymbolLayerV2

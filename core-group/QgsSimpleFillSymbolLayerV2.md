@@ -1,1 +1,0 @@
-# QgsSimpleFillSymbolLayerV2

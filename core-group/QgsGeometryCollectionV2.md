@@ -1,1 +1,0 @@
-# QgsGeometryCollectionV2
