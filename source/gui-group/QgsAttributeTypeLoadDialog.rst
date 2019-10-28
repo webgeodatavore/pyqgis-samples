@@ -3,5 +3,5 @@ QgsAttributeTypeLoadDialog
 
 .. image:: _static/images/QgsAttributeTypeLoadDialog-standalone.png
 
-.. literalinclude:: _static/samples/qgis-sample-QgsAttributeTypeLoadDialog.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsAttributeTypeLoadDialog.py
    :language: python

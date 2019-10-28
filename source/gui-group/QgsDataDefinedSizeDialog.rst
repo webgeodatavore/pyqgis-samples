@@ -1,5 +1,5 @@
 QgsDataDefinedSizeDialog
 ------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsDataDefinedSizeDialog.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsDataDefinedSizeDialog.py
    :language: python

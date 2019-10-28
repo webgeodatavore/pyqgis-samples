@@ -1,5 +1,5 @@
 QgsQueryBuilder
 ---------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsQueryBuilder.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsQueryBuilder.py
    :language: python

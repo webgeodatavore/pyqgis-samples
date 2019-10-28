@@ -1,5 +1,5 @@
 QgsRasterPyramidsOptionsWidget
 ------------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsRasterPyramidsOptionsWidget.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsRasterPyramidsOptionsWidget.py
    :language: python

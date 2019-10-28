@@ -1,5 +1,5 @@
 QgsExpressionItem
 -----------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsExpressionItem.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsExpressionItem.py
    :language: python

@@ -1,5 +1,5 @@
 QgsMapLayerAction
 -----------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMapLayerAction.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMapLayerAction.py
    :language: python

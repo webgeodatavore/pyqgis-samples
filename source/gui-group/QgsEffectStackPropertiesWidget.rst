@@ -3,5 +3,5 @@ QgsEffectStackPropertiesWidget
 
 .. image:: _static/images/QgsEffectStackPropertiesWidget-standalone.png
 
-.. literalinclude:: _static/samples/qgis-sample-QgsEffectStackPropertiesWidget.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsEffectStackPropertiesWidget.py
    :language: python

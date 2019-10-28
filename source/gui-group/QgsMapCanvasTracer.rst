@@ -1,5 +1,5 @@
 QgsMapCanvasTracer
 ------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMapCanvasTracer.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMapCanvasTracer.py
    :language: python

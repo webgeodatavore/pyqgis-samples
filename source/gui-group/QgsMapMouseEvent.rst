@@ -1,5 +1,5 @@
 QgsMapMouseEvent
 ----------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMapMouseEvent.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMapMouseEvent.py
    :language: python

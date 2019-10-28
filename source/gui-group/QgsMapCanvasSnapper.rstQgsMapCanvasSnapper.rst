@@ -1,5 +1,5 @@
 QgsMapCanvasSnapper
 -------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMapCanvasSnapper.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMapCanvasSnapper.py
    :language: python

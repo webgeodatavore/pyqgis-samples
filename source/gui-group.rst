@@ -256,7 +256,6 @@ GUI related code samples
 .. include:: gui-group/QgsSvgSelectorGroupsModel.rst
 .. include:: gui-group/QgsSvgSelectorListModel.rst
 .. include:: gui-group/QgsSvgSelectorWidget.rst
-.. include:: gui-group/QgsSymbolLayerV2Widget-description.rst
 .. include:: gui-group/QgsSymbolLayerV2Widget.rst
 .. include:: gui-group/QgsSymbolLevelsV2Dialog.rst
 .. include:: gui-group/QgsSymbolsListWidget.rst

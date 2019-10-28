@@ -1,5 +1,5 @@
 QgsGroupBoxCollapseButton
 -------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsGroupBoxCollapseButton.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsGroupBoxCollapseButton.py
    :language: python

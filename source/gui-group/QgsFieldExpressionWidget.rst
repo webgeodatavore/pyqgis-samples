@@ -3,5 +3,5 @@ QgsFieldExpressionWidget
 
 .. image:: _static/images/QgsFieldExpressionWidget-standalone.png
 
-.. literalinclude:: _static/samples/qgis-sample-QgsFieldExpressionWidget.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsFieldExpressionWidget.py
    :language: python

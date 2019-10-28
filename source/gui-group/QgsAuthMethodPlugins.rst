@@ -3,5 +3,5 @@ QgsAuthMethodPlugins
 
 .. image:: _static/images/QgsAuthMethodPlugins-standalone.png
 
-.. literalinclude:: _static/samples/qgis-sample-QgsAuthMethodPlugins.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsAuthMethodPlugins.py
    :language: python

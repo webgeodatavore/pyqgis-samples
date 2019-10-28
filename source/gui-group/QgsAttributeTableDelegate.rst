@@ -1,5 +1,5 @@
 QgsAttributeTableDelegate
 -------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsAttributeTableDelegate.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsAttributeTableDelegate.py
    :language: python

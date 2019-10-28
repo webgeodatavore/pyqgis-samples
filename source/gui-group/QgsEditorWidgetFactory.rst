@@ -1,5 +1,5 @@
 QgsEditorWidgetFactory
 ----------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsEditorWidgetFactory.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsEditorWidgetFactory.py
    :language: python

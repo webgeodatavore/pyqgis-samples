@@ -3,5 +3,5 @@ QgsRendererRulePropsDialog
 
 .. image:: _static/images/QgsRendererRulePropsDialog-standalone.png
 
-.. literalinclude:: _static/samples/qgis-sample-QgsRendererRulePropsDialog.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsRendererRulePropsDialog.py
    :language: python

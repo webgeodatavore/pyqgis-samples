@@ -1,5 +1,5 @@
 QgsAttributeEditor
 ------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsAttributeEditor.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsAttributeEditor.py
    :language: python

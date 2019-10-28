@@ -1,5 +1,5 @@
 QgisInterface
 -------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgisInterface.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgisInterface.py
    :language: python

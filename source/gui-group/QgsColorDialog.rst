@@ -1,5 +1,5 @@
 QgsColorDialog
 --------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsColorDialog.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsColorDialog.py
    :language: python

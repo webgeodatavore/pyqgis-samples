@@ -1,5 +1,5 @@
 QgsDataDefinedSymbolDialog
 --------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsDataDefinedSymbolDialog.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsDataDefinedSymbolDialog.py
    :language: python

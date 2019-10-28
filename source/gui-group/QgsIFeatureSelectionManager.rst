@@ -1,5 +1,5 @@
 QgsIFeatureSelectionManager
 ---------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsIFeatureSelectionManager.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsIFeatureSelectionManager.py
    :language: python

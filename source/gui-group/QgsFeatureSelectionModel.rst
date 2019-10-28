@@ -1,5 +1,5 @@
 QgsFeatureSelectionModel
 ------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsFeatureSelectionModel.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsFeatureSelectionModel.py
    :language: python

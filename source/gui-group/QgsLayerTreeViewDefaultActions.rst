@@ -1,5 +1,5 @@
 QgsLayerTreeViewDefaultActions
 ------------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsLayerTreeViewDefaultActions.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsLayerTreeViewDefaultActions.py
    :language: python

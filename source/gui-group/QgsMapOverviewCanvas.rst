@@ -3,5 +3,5 @@ QgsMapOverviewCanvas
 
 .. image:: _static/images/QgsMapOverviewCanvas-standalone.png
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMapOverviewCanvas.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMapOverviewCanvas.py
    :language: python

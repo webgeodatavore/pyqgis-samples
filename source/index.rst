@@ -11,7 +11,7 @@ Welcome to PyQGIS samples's documentation!
    :caption: Contents:
 
    gui-group
-   
+   core-group
 
 
 Indices and tables

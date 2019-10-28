@@ -1,5 +1,5 @@
 QgsPluginManagerInterface
 -------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsPluginManagerInterface.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsPluginManagerInterface.py
    :language: python

@@ -1,5 +1,5 @@
 QgsSvgSelectorGroupsModel
 -------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsSvgSelectorGroupsModel.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsSvgSelectorGroupsModel.py
    :language: python

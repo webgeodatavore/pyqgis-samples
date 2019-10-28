@@ -1,5 +1,5 @@
 QgsOWSSourceSelect
 ------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsOWSSourceSelect.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsOWSSourceSelect.py
    :language: python

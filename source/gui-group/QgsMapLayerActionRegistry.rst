@@ -1,5 +1,5 @@
 QgsMapLayerActionRegistry
 -------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMapLayerActionRegistry.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMapLayerActionRegistry.py
    :language: python

@@ -1,5 +1,5 @@
 QgsMessageLogViewer
 -------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMessageLogViewer.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMessageLogViewer.py
    :language: python

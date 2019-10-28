@@ -1,5 +1,5 @@
 QgsMapLayerModel
 ----------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMapLayerModel.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMapLayerModel.py
    :language: python

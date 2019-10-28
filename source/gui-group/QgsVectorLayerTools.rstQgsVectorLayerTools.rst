@@ -1,5 +1,5 @@
 QgsVectorLayerTools
 -------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsVectorLayerTools.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsVectorLayerTools.py
    :language: python

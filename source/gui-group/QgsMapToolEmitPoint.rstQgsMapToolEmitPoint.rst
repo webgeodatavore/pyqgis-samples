@@ -1,5 +1,5 @@
 QgsMapToolEmitPoint
 -------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMapToolEmitPoint.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMapToolEmitPoint.py
    :language: python

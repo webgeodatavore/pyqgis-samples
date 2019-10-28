@@ -3,5 +3,5 @@ QgsColorSchemeList
 
 .. image:: _static/images/QgsColorSchemeList-standalone.png
 
-.. literalinclude:: _static/samples/qgis-sample-QgsColorSchemeList.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsColorSchemeList.py
    :language: python

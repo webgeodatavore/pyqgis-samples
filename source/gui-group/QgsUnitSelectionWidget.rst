@@ -1,5 +1,5 @@
 QgsUnitSelectionWidget
 ----------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsUnitSelectionWidget.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsUnitSelectionWidget.py
    :language: python

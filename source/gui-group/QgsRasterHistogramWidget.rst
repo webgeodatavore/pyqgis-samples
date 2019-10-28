@@ -1,5 +1,5 @@
 QgsRasterHistogramWidget
 ------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsRasterHistogramWidget.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsRasterHistogramWidget.py
    :language: python

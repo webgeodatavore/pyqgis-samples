@@ -1,5 +1,5 @@
 QgsMessageBarItem
 -----------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMessageBarItem.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMessageBarItem.py
    :language: python

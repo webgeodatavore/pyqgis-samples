@@ -1,5 +1,5 @@
 QgsFieldModel
 -------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsFieldModel.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsFieldModel.py
    :language: python

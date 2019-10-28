@@ -1,5 +1,5 @@
 QgsColorWidget
 --------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsColorWidget.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsColorWidget.py
    :language: python

@@ -1,5 +1,5 @@
 QgsFeatureListViewDelegate
 --------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsFeatureListViewDelegate.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsFeatureListViewDelegate.py
    :language: python

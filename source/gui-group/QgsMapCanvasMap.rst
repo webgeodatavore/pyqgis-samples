@@ -1,5 +1,5 @@
 QgsMapCanvasMap
 ---------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMapCanvasMap.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMapCanvasMap.py
    :language: python

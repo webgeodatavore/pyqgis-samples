@@ -1,5 +1,5 @@
 QgsDataDefinedButton
 --------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsDataDefinedButton.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsDataDefinedButton.py
    :language: python

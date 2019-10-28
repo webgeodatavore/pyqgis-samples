@@ -1,5 +1,5 @@
 QgsMapToolAdvancedDigitizing
 ----------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMapToolAdvancedDigitizing.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMapToolAdvancedDigitizing.py
    :language: python

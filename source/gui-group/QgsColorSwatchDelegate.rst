@@ -1,5 +1,5 @@
 QgsColorSwatchDelegate
 ----------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsColorSwatchDelegate.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsColorSwatchDelegate.py
    :language: python

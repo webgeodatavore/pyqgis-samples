@@ -1,5 +1,5 @@
 QgsMapToolCapture
 -----------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsMapToolCapture.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsMapToolCapture.py
    :language: python

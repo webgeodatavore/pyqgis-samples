@@ -3,5 +3,5 @@ QgsEncodingFileDialog
 
 .. image:: _static/images/QgsEncodingFileDialog-standalone.png
 
-.. literalinclude:: _static/samples/qgis-sample-QgsEncodingFileDialog.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsEncodingFileDialog.py
    :language: python

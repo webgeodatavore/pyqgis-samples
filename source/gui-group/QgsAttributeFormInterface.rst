@@ -1,5 +1,5 @@
 QgsAttributeFormInterface
 -------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsAttributeFormInterface.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsAttributeFormInterface.py
    :language: python

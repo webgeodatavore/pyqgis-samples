@@ -1,5 +1,5 @@
 QgsPreviewEffect
 ----------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsPreviewEffect.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsPreviewEffect.py
    :language: python

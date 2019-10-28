@@ -1,5 +1,5 @@
 QgsAttributeTableAction
 -----------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsAttributeTableAction.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsAttributeTableAction.py
    :language: python

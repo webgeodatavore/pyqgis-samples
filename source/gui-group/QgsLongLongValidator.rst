@@ -1,5 +1,5 @@
 QgsLongLongValidator
 --------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsLongLongValidator.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsLongLongValidator.py
    :language: python

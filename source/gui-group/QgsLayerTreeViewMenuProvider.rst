@@ -1,5 +1,5 @@
 QgsLayerTreeViewMenuProvider
 ----------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsLayerTreeViewMenuProvider.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsLayerTreeViewMenuProvider.py
    :language: python

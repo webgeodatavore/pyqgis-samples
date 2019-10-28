@@ -1,5 +1,5 @@
 QgsEditorWidgetRegistry
 -----------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsEditorWidgetRegistry.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsEditorWidgetRegistry.py
    :language: python

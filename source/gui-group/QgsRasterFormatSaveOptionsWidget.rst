@@ -1,5 +1,5 @@
 QgsRasterFormatSaveOptionsWidget
 --------------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsRasterFormatSaveOptionsWidget.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsRasterFormatSaveOptionsWidget.py
    :language: python

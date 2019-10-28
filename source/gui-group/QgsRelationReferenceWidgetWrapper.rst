@@ -1,5 +1,5 @@
 QgsRelationReferenceWidgetWrapper
 ---------------------------------
 
-.. literalinclude:: _static/samples/qgis-sample-QgsRelationReferenceWidgetWrapper.py
+.. literalinclude:: _static/samples/gui/qgis-sample-QgsRelationReferenceWidgetWrapper.py
    :language: python
