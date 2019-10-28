@@ -1,6 +1,10 @@
 Core related code samples
 =========================
 
+.. todo::
+   
+   Update existing sample and update list of core Class to QGIS 3.4 e.g https://qgis.org/pyqgis/3.4/core/index.html
+
 .. include:: core-group/QCoreApplication.rst
 .. include:: core-group/QGis.rst
 .. include:: core-group/QPyNullVariant.rst
